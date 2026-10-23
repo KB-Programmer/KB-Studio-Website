@@ -45,11 +45,11 @@ export const site = {
    * owner has not confirmed these yet, so they are not displayed anywhere.
    */
   contact: {
-    email: '',
-    phone: '',
-    whatsapp: '',
-    address: '',
-    hours: '',
+    email: 'kingbonheur02@gmail.com',
+    phone: '+250794038238',
+    whatsapp: 'https://t.me/250794038238',
+    address: 'Remote, Kigali - Rwanda & Internation',
+    hours: '24/7',
   },
 
   /** Legal details that must be completed before launch. */

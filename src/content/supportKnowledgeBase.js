@@ -1,3 +1,5 @@
+
+
 /**
  * KBS Customer Support Assistant — knowledge base.
  *
@@ -70,7 +72,7 @@ export const supportIntents = [
     },
     answer: {
       en: "Hello, and welcome to King Business Studio. I can help you explore our services, find answers to common questions, and prepare a service request. What would you like to know?",
-      rw: "Muraho, kandi murakaza neza muri King Business Studio. Nshobora kubafasha kugenzura serivisi zacu, kubona ibisobanuro ku ibibazo bisanzwe, no gutegura ubusabe bw'akazi. Nimba mu byo mwishimiye?",
+      rw: "Muraho, murakaza neza muri King Business Studio (KBS). Nshobora kubafasha kumenya serivisi dutanga, gusubiza ibibazo bikunze kubazwa no gutegura ubusabe bwa serivisi. Ni iki mwifuza kumenya?",
       fr: "Bonjour et bienvenue chez King Business Studio. Je peux vous aider à découvrir nos services, à trouver des réponses aux questions fréquentes et à préparer une demande de service. Que souhaitez-vous savoir ?",
     },
     followUps: {
@@ -80,9 +82,9 @@ export const supportIntents = [
         "How much does a project cost?",
       ],
       rw: [
-        "Ni ubuhe serivisi KBS itanga?",
-        "Uko nshaka serivisi?",
-        "Igiciro cy’umushinga ni iki?",
+        "Ni izihe serivisi KBS itanga?",
+        "Nigute nasaba serivisi?",
+        "Igiciro cy’umushinga gitegurwa gite?",
       ],
       fr: [
         "Quels services KBS propose-t-il ?",
@@ -95,7 +97,7 @@ export const supportIntents = [
         to: "/services",
         label: {
           en: "Explore our services",
-          rw: "Reba serivisi zacu",
+          rw: "Reba serivisi dutanga",
           fr: "Découvrir nos services",
         },
       },
@@ -165,12 +167,12 @@ export const supportIntents = [
     },
     answer: {
       en: "I'm the KBS Customer Support Assistant — an automated, rule-based support assistant that answers using King Business Studio's approved website information. I'm not a person and I don't use a generative AI model, so I can only help with the topics in the knowledge base. For anything else, the KBS team can help directly through the Request a Service or Contact pages.",
-      rw: "Ndi Umufasha wa KBS w'umufasha abashobisha — umufasha w'ubuzike ukoresha amakuru y'officiali y'King Business Studio yemewe. Si umuntu, kandi ntikoresha AI generative, ariko nshobora gusa gufasha mu ibintu biri mu kigero cyo kugira. Ibindi bikora iyi yuko ukabibazo byasaba ubuzima, KBS ishobora kugufasha ukoresheje ifashiko rya Serivisi cyangwa ry'Uhoyane.",
+      rw: "Ndi umufasha w’abakiriya wa KBS ukoresha amategeko n’amakuru yemejwe na King Business Studio. Si umuntu kandi sinakoresha ikoranabuhanga rya AI ribyara ibisubizo bishya; nshobora gusubiza ibibazo biri mu bumenyi nahawe gusa. Ku bindi bibazo, mushobora kuvugana n’itsinda rya KBS munyura ku mapaji yo Gusaba Serivisi cyangwa Aho Mutuvugisha.",
       fr: "Je suis l'assistant de support KBS — un assistant automatisé, fondé sur des règles, qui répond à partir des informations approuvées du site de King Business Studio. Je ne suis pas une personne et je n'utilise pas de modèle d'IA générative : je ne peux donc répondre que sur les sujets présents dans la base de connaissances. Pour le reste, l'équipe KBS peut vous aider via les pages Demander un service ou Contact.",
     },
     followUps: {
       en: ["What services does KBS offer?", "How do I request a service?"],
-      rw: ["Ni ubuhe serivisi KBS itanga?", "Uko nshaka serivisi?"],
+      rw: ["Ni izihe serivisi KBS itanga?", "Nigute nasaba serivisi?"],
       fr: [
         "Quels services KBS propose-t-il ?",
         "Comment demander un service ?",
@@ -187,7 +189,7 @@ export const supportIntents = [
       },
       {
         to: "/contact",
-        label: { en: "Contact KBS", rw: "Vugana na KBS", fr: "Contacter KBS" },
+        label: { en: "Contact KBS", rw: "Twandikire", fr: "Contacter KBS" },
       },
     ],
   },
@@ -246,7 +248,7 @@ export const supportIntents = [
     },
     answer: {
       en: "King Business Studio provides Business Documents, Graphic Design and Web Development services.\n\n• Business Documents — CVs, cover letters, company profiles, proposals, business plans, professional letters and reports, presentations, editable templates, formatting and proofreading.\n• Graphic Design — logo design, brand identity concepts, business cards and stationery, flyers and posters, brochures, social media graphics and marketing materials.\n• Web Development — business websites, personal portfolios, landing pages, e-commerce websites, custom web applications, redesigns, and maintenance and improvements.\n\nOpen the Services page for the full overview of each service.",
-      rw: "King Business Studio itanga amanduku y'ubucuruzi, ugaragaza ibinyabiziga, no gushyira website.\n\n• Amanduku y'ubucuruzi — CV, ibutumwa ry'ibanira imirimo, amarwi y'ikigo, imyaka y'ubucuruzi, gahunda y'ubucuruzi, amagambo n'ibikoresho by'abaturage, ibintu byerekana, ibikoresho bisanzwe, gutondeka no kugenzura.\n• Ugaragaza ibinyabiziga — gushyiramo logo, igihano cy'ikigo, ibikoresho by'ikigo, amashusho n'amabare, amazu y'amaguru, ibinyabiziga by'uburasobe n'ibikoresho by'ubucuruzi.\n• Gushyira website — websites z'abucuruzi, portfolio z'abahereza, landing pages, websites z'ubucuruzi, porogaramu za web zihangaywe igihe, kongera websites zashariwe, gubungura no kuteza imbere.\n\nSura ipaji ya Serivisi kugira ngo ubone byose.",
+      rw: "King Business Studio itanga serivisi eshatu z’ingenzi:\n\n• **Inyandiko z’Ubucuruzi** — gukora no kunoza CV, amabaruwa asaba akazi, imyirondoro y’ibigo, inyandiko z’imishinga, gahunda z’ubucuruzi, raporo, inyandiko z’umwuga, ibiganiro-mbonerahamwe, inyandikorugero zihindurwa, gutunganya imiterere no gukosora inyandiko.\n• **Igishushanyo mbonera** — gukora logo, imiterere ndangamuranga y’ikigo, amakarita y’akazi, impapuro z’ibiro, ibyapa, udupapuro twamamaza, udutabo n’amashusho yo ku mbuga nkoranyambaga.\n• **Iterambere rya Website** — gukora website z’ibigo, iz’umwirondoro w’umuntu ku giti cye, landing pages, amaduka yo kuri internet, porogaramu za web zihariye, kuvugurura website no kuzibungabunga.\n\nSura ipaji ya Serivisi kugira ngo umenye ibisobanuro birambuye kuri buri serivisi.",
       fr: "King Business Studio propose trois services : Documents Professionnels, Design Graphique et Développement Web.\n\n• Documents Professionnels — CV, lettres de motivation, profils d'entreprise, propositions commerciales, plans d'affaires, lettres et rapports professionnels, présentations, modèles modifiables, mise en forme et relecture.\n• Design Graphique — création de logo, identité de marque, cartes de visite et papeterie, flyers et affiches, brochures, visuels pour les réseaux sociaux, supports marketing.\n• Développement Web — sites d'entreprise, portfolios personnels, landing pages, sites e-commerce, applications web sur mesure, refontes, maintenance et améliorations.\n\nConsultez la page Services pour le détail de chaque prestation.",
     },
     followUps: {
@@ -271,7 +273,7 @@ export const supportIntents = [
         to: "/services",
         label: {
           en: "View all services",
-          rw: "Reba serivisi zose",
+          rw: "Reba serivisi zose dutanga",
           fr: "Voir tous les services",
         },
       },
@@ -397,7 +399,7 @@ export const supportIntents = [
         },
         answer: {
           en: "Yes. Business Documents services may include CV and resume writing or improvement, cover letters, professional document formatting and proofreading. When you request a CV, it helps to share the role you are targeting and any existing version of the document.",
-          rw: "Yego. Amanduku y'ubucuruzi ashobora kubuga CV n'imyaka, ibutumwa ry'ibanira imirimo, gutondeka amanduku y’abahereza no kugenzura. Wakubira isunika ry’CV, byakunda kumenya akazi ukeneye n’urwanduku rwose rwa buri wese.",
+          rw: "Yego. Serivisi y’Inyandiko z’Ubucuruzi ishobora kubamo gukora cyangwa kunoza CV, kwandika ibaruwa isaba akazi, gutunganya imiterere y’inyandiko no gukosora amakosa. Niba ushaka ko tugufasha kuri CV, tubwire umwanya w’akazi ugamije kandi, niba uyifite, wohereze CV usanzwe ukoresha.",
           fr: "Oui. Les Documents Professionnels peuvent inclure la rédaction ou l'amélioration de CV, les lettres de motivation, la mise en forme et la relecture. Pour un CV, indiquez le poste visé et transmettez si possible une version existante du document.",
         },
         followUps: {
@@ -405,7 +407,7 @@ export const supportIntents = [
             "How do I request a service?",
             "What else can you write for me?",
           ],
-          rw: ["Uko nshaka serivisi?", "Ni ubuhe bwoko bwindi bwinyandiko?"],
+          rw: ["Nigute nasaba serivisi?", "Ni ubuhe bwoko bwindi bwinyandiko?"],
           fr: [
             "Comment demander un service ?",
             "Que pouvez-vous d’autre rédiger ?",
@@ -416,7 +418,7 @@ export const supportIntents = [
             to: "/services/business-documents",
             label: {
               en: "Business Documents service",
-              rw: "Serivisi y’Amanduku y’Ubucuruzi",
+              rw: "Serivisi y’Inyandiko z’Ubucuruzi",
               fr: "Service Documents Professionnels",
             },
           },
@@ -469,12 +471,12 @@ export const supportIntents = [
         },
         answer: {
           en: "Business Documents services can include business proposals, business plans and company profiles. These are built around your actual content, so the more context you can share — the client, the objectives and the format required — the more useful the document will be.",
-          rw: "Amanduku y'ubucuruzi ashobora gufuka imyaka y'ubucuruzi, gahunda y'ubucuruzi n'amarwi y'ikigo. Byubakwa ku ibyo ukuri biri ku byo, ariko uko ushobora gutanga ibirango — umukiriya, intego n'uburyo busanzwe — ni byo byiza umwanduku.",
+          rw: "Serivisi y’Inyandiko z’Ubucuruzi ishobora kubamo inyandiko zerekana umushinga, gahunda y’ubucuruzi n’umwirondoro w’ikigo. Izo nyandiko zitegurwa hashingiwe ku makuru nyayo mutanga. Kugira ngo zirusheho kuba ingirakamaro, muduhe amakuru ku bo zigenewe, intego yazo n’imiterere cyangwa ibisabwa zigomba gukurikiza.",
           fr: "Les Documents Professionnels peuvent inclure des propositions commerciales, des plans d'affaires et des profils d'entreprise. Ils sont construits sur vos contenus réels : plus vous partagez de contexte (client, objectifs, format attendu), plus le document sera utile.",
         },
         followUps: {
           en: ["How do I request a service?", "How long will it take?"],
-          rw: ["Uko nshaka serivisi?", "Bizamara igihe iki?"],
+          rw: ["Nigute nasaba serivisi?", "Umushinga uzamara igihe kingana iki?"],
           fr: [
             "Comment demander un service ?",
             "Combien de temps cela prendra-t-il ?",
@@ -485,7 +487,7 @@ export const supportIntents = [
             to: "/services/business-documents",
             label: {
               en: "Business Documents service",
-              rw: "Serivisi y’Amanduku y’Ubucuruzi",
+              rw: "Serivisi y’Inyandiko z’Ubucuruzi",
               fr: "Service Documents Professionnels",
             },
           },
@@ -494,7 +496,7 @@ export const supportIntents = [
     ],
     answer: {
       en: "Business Documents services cover CVs and resumes, cover letters, company profiles, business proposals, business plans, professional letters and reports, presentations, editable document templates, plus formatting and proofreading. The goal is a document that reads clearly and presents you professionally.",
-      rw: "Amanduku y'ubucuruzi agira CV n'imyaka, ibutumwa ry'ibanira imirimo, amarwi y'ikigo, imyaka y'ubucuruzi, gahunda y'ubucuruzi, amagambo n'ibikoresho by’abaturage, ibintu byerekana, ibikoresho bisanzwe, no kutondeka no kugenzura amanduku. Intego ni gukora igicece gisobanutuwe neza kandi gikwaza kwigera nk'umwuga.",
+      rw: "Serivisi y’Inyandiko z’Ubucuruzi ikubiyemo gukora no kunoza CV, amabaruwa asaba akazi, imyirondoro y’ibigo, inyandiko z’imishinga, gahunda z’ubucuruzi, amabaruwa na raporo by’umwuga, ibiganiro-mbonerahamwe, inyandikorugero zihindurwa, gutunganya imiterere no gukosora inyandiko. Intego ni ugutegura inyandiko zumvikana neza kandi zigaragaza ubunyamwuga.",
       fr: "Les Documents Professionnels couvrent les CV et resumes, lettres de motivation, profils d'entreprise, propositions et plans d'affaires, lettres et rapports professionnels, présentations, modèles modifiables, ainsi que la mise en forme et la relecture. L'objectif : un document clair qui vous présente de manière professionnelle.",
     },
     followUps: {
@@ -504,7 +506,7 @@ export const supportIntents = [
         "See an example project",
       ],
       rw: [
-        "Uko nshaka serivisi?",
+        "Nigute nasaba serivisi?",
         "Umushinga wanjye uzamara igihe iki?",
         "Reba umushinga w’icyitegererezo",
       ],
@@ -519,7 +521,7 @@ export const supportIntents = [
         to: "/services/business-documents",
         label: {
           en: "Business Documents service",
-          rw: "Serivisi y’Amanduku y’Ubucuruzi",
+          rw: "Serivisi y’Inyandiko z’Ubucuruzi",
           fr: "Service Documents Professionnels",
         },
       },
@@ -654,12 +656,12 @@ export const supportIntents = [
         },
         answer: {
           en: "Logo design is part of the Graphic Design service. A good logo starts with a short conversation about your industry, your audience and what you want people to remember. We can then explore a few directions and confirm the scope before any final work is agreed.",
-          rw: "Gushyiramo logo ni igicece cy'Ugaragaza Ibinyabiziga. Logo nziza itandika n'ikiganiro gito ku urwego w'akazi, abagenera b'umusanzwe, n'ibyo ushaka abakigira. Nyuma yo kuganira, twashobora kugerageza uburyo butandukanye mbere yo kugena igahunda.",
+          rw: "Gukora logo ni imwe muri serivisi z’Igishushanyo Mbonera. Dutangira tuganira ku rwego rw’ubucuruzi bwanyu, abo mugamije kugeraho n’ubutumwa mushaka ko logo yanyu itanga. Nyuma y’ibyo, dushobora gutegura ibitekerezo bitandukanye, tukumvikana ku byo umushinga uzaba ukubiyemo mbere yo gutangira imirimo ya nyuma.",
           fr: "La création de logo fait partie du service Design Graphique. Un bon logo commence par un court échange sur votre secteur, votre audience et ce que vous souhaitez qu'on retienne. Nous pouvons ensuite explorer quelques pistes et valider le périmètre avant toute validation finale.",
         },
         followUps: {
           en: ["See a brand identity example", "How do I request a service?"],
-          rw: ["Reba ingero y’igihano cy’ikigo", "Uko nshaka serivisi?"],
+          rw: ["Reba urugero rw’imiterere ndangamuranga y’ikigo", "Nigute nasaba serivisi?"],
           fr: [
             "Voir un exemple d'identité de marque",
             "Comment demander un service ?",
@@ -670,7 +672,7 @@ export const supportIntents = [
             to: "/portfolio/modern-brand-identity",
             label: {
               en: "Brand identity example",
-              rw: "Ingero y’igihano cy’ikigo",
+              rw: "Urugero rw’imiterere ndangamuranga y’ikigo",
               fr: "Exemple d’identité de marque",
             },
           },
@@ -679,7 +681,7 @@ export const supportIntents = [
     ],
     answer: {
       en: "Graphic Design services cover logo design, brand identity concepts, business cards and stationery, flyers and posters, brochures, social media graphics, marketing materials, and presentation and document layouts. The aim is a visual system you can apply consistently so your business looks the same everywhere it appears.",
-      rw: "Ugaragaza ibinyabiziga gufuga gushyiramo logo, igihano cy’ikigo, ibikoresho by’ikigo n’ibindi byanditse, amashusho n’amabare, amazu y’amaguru, ibinyabiziga by’uburasobe, ibikoresho by’ubucuruzi, n’iburaganzwe by’ibyerekana n’amanduku. Intego ni gukora ubuherakare bw’ububonerangura ukashyushyeye igihano cyawe.",
+      rw: "Serivisi y’Igishushanyo Mbonera ikubiyemo gukora logo, ibitekerezo by’imiterere ndangamuranga y’ikigo, amakarita y’akazi n’impapuro z’ibiro, ibyapa n’udupapuro twamamaza, udutabo, amashusho yo ku mbuga nkoranyambaga n’ibikoresho byo kwamamaza, ndetse no gutunganya imiterere y’inyandiko n’ibiganiro-mbonerahamwe. Intego ni ugufasha ikigo kugira isura ihamye kandi imenyekana aho kigaragariye hose.",
       fr: "Le Design Graphique couvre la création de logo, les concepts d'identité de marque, cartes de visite et papeterie, flyers et affiches, brochures, visuels pour les réseaux sociaux, supports marketing, et mises en page de présentations et documents. L'objectif : un système visuel applicable de façon cohérente, pour une image identique partout.",
     },
     followUps: {
@@ -689,9 +691,9 @@ export const supportIntents = [
         "How long will it take?",
       ],
       rw: [
-        "Reba ingero y’igihano cy’ikigo",
-        "Uko nshaka serivisi?",
-        "Bizamara igihe iki?",
+        "Reba urugero rw’imiterere ndangamuranga y’ikigo",
+        "Nigute nasaba serivisi?",
+        "Umushinga uzamara igihe kingana iki?",
       ],
       fr: [
         "Voir un exemple d'identité de marque",
@@ -704,7 +706,7 @@ export const supportIntents = [
         to: "/services/graphic-design",
         label: {
           en: "Graphic Design service",
-          rw: "Serivisi y’Ugaragaza Ibinyabiziga",
+          rw: "Serivisi y’Igishushanyo Mbonera",
           fr: "Service Design Graphique",
         },
       },
@@ -712,7 +714,7 @@ export const supportIntents = [
         to: "/portfolio/modern-brand-identity",
         label: {
           en: "Brand identity example",
-          rw: "Ingero y’igihano cy’ikigo",
+          rw: "Urugero rw’imiterere ndangamuranga y’ikigo",
           fr: "Exemple d’identité de marque",
         },
       },
@@ -847,12 +849,12 @@ export const supportIntents = [
         },
         answer: {
           en: "E-commerce website development can be discussed under Web Development. Share your requirements so the team can assess the scope: the products you want to sell, how customers should pay, how delivery works, and who will manage the product catalogue afterwards.",
-          rw: "Gushyira website y'ubucuruzi kuganirwa mu Gushyira Website. Ubutumwa bw'ibyo ukeneye bufatanye na kugira ngo itsinda ribone ingero y'akazi: ibicuruzwa uzabisha, uburyo abakiriya bazishyura, uburyo ibicuruzwa bzikwiye kwegerewa, n'uwucuruzesha ikiganda byibiganza.",
+          rw: "Gukora urubuga rw’ubucuruzi bwo kuri internet (e-commerce) biri muri serivisi z’Iterambere rya Website. Mudusangize ibisabwa kugira ngo itsinda risuzume ingano y’umushinga: ibicuruzwa muzacuruza, uburyo abakiriya bazishyura, uko ibicuruzwa bizagezwa ku baguzi n’uzacunga urutonde rw’ibicuruzwa urubuga rumaze kujya ahagaragara.",
           fr: "Un site e-commerce peut être discuté au titre du Développement Web. Partagez vos besoins pour que l'équipe puisse évaluer le périmètre : produits à vendre, mode de paiement des clients, fonctionnement de la livraison, et gestion du catalogue après la mise en ligne.",
         },
         followUps: {
           en: ["How do I request a service?", "See the website concept"],
-          rw: ["Uko nshaka serivisi?", "Reba concept ya website"],
+          rw: ["Nigute nasaba serivisi?", "Reba urugero rwa website"],
           fr: ["Comment demander un service ?", "Voir le concept de site web"],
         },
         links: [
@@ -860,7 +862,7 @@ export const supportIntents = [
             to: "/services/web-development",
             label: {
               en: "Web Development service",
-              rw: "Serivisi y’Ubunyangamugayo b’Website",
+              rw: "Serivisi y’Iterambere rya Website",
               fr: "Service Développement Web",
             },
           },
@@ -869,7 +871,7 @@ export const supportIntents = [
     ],
     answer: {
       en: "Web Development services cover business websites, personal portfolios, landing pages, e-commerce websites, custom web applications, website redesigns, and maintenance and improvements. Websites are built to work well on phones, tablets and desktops, and to make the next step obvious for your visitors.",
-      rw: "Ubunyangamugayo b'website bugira ku websites z'abucuruzi, portfolio z'abahereza, landing pages, websites z'ubucuruzi, porogaramu za web zihangaywe igihe, kongeramo websites zashariwe, gubungura no kuteza imbere. Websites zubakwa kugira ngo zikore neza kuri telefoni, tabiti na mudashobha, no kugira ngo umusura arebe inzira inyuma.",
+      rw: "Serivisi y’Iterambere rya Website ikubiyemo gukora imbuga z’ibigo, portfolio z’abantu ku giti cyabo, landing pages, amaduka yo kuri internet, porogaramu za web zihariye, kuvugurura imbuga zisanzwe no kuzibungabunga no kuzinoza. Imbuga zitegurwa ku buryo zikora neza kuri telefoni, tableti na mudasobwa, kandi zigafasha abazisura kumenya intambwe ikurikira bagomba gutera.",
       fr: "Le Développement Web couvre les sites d'entreprise, portfolios personnels, landing pages, sites e-commerce, applications web sur mesure, refontes de sites, ainsi que la maintenance et les améliorations. Les sites sont conçus pour fonctionner sur mobile, tablette et ordinateur, et rendre l'étape suivante évidente pour vos visiteurs.",
     },
     followUps: {
@@ -880,8 +882,8 @@ export const supportIntents = [
       ],
       rw: [
         "KBS ishobora gukora website y’ubucuruzi?",
-        "Uko gushyiramo website birabera uko?",
-        "Reba concept ya website",
+        "Ni gute mukora website?",
+        "Reba urugero rwa website",
       ],
       fr: [
         "KBS peut-il créer un site e-commerce ?",
@@ -894,7 +896,7 @@ export const supportIntents = [
         to: "/services/web-development",
         label: {
           en: "Web Development service",
-          rw: "Serivisi y’Ubunyangamugayo b’Website",
+          rw: "Serivisi y’Iterambere rya Website",
           fr: "Service Développement Web",
         },
       },
@@ -902,7 +904,7 @@ export const supportIntents = [
         to: "/portfolio/business-website-concept",
         label: {
           en: "Website concept example",
-          rw: "Ingero y’concept ya website",
+          rw: "Urugero rw’igitekerezo cya website",
           fr: "Exemple de concept de site web",
         },
       },
@@ -992,7 +994,7 @@ export const supportIntents = [
     },
     answer: {
       en: "Project costs depend on the requirements and the scope of work. We do not publish fixed prices because every project differs. Share your project details through the service request form so KBS can review them and prepare a quotation that matches your needs.",
-      rw: "Igiciro cy'umushinga giteranyijwe ku ibyo ukeneye n'uburyo akazi buzakora. Twigera icyo ducungu cy'ibiciro bigamye igihe ku buryo buri mushinga ari bwiza. Ohereza ibyo ukeneye mu isunika rya Serivisi kugira ngo KBS ibibere ibyo bikemura igiciro gikwiye ibyo ukeneye.",
+      rw: "Igiciro cy’umushinga giterwa n’ibyo mukeneye n’ingano y’akazi kagomba gukorwa. Ntidushyiraho ibiciro bihamye ku mishinga yose, kuko buri mushinga ugira umwihariko. Ohereza ibisobanuro by’umushinga wawe ukoresheje ifishi yo Gusaba Serivisi kugira ngo itsinda rya KBS ribisuzume ritegure inyandiko igaragaza igiciro kijyanye n’ibyo ukeneye.",
       fr: "Le coût d'un projet dépend des besoins et du périmètre des travaux. Nous ne publions pas de prix fixes, car chaque projet est différent. Partagez les détails de votre projet via le formulaire de demande de service : l'équipe KBS pourra les examiner et préparer un devis adapté à vos besoins.",
     },
     followUps: {
@@ -1002,9 +1004,9 @@ export const supportIntents = [
         "How long will it take?",
       ],
       rw: [
-        "Uko nshaka serivisi?",
-        "Ni ubuhe bwoko bw’ibyo nashyikirije?",
-        "Bizamara igihe iki?",
+        "Nigute nasaba serivisi?",
+        "Ni ayahe makuru ngomba gutanga?",
+        "Umushinga uzamara igihe kingana iki?",
       ],
       fr: [
         "Comment demander un service ?",
@@ -1087,12 +1089,12 @@ export const supportIntents = [
     },
     answer: {
       en: "Timelines depend on the scope and requirements of each project, and on how quickly content and feedback are available. The expected timeline is discussed and agreed after your project details have been reviewed, before any work starts.",
-      rw: "Igihe cy'umushinga giteranyijwe ku ingero y'akazi n'ibyo ukeneye, no ku kuryo ibikoresho n'ubuzima bwawe buzaboneka vuba. Igitihe cyitezwe kandi cyemezwa nyuma yo kubona ibyo ukeneye, mbere yo gutangira.",
+      rw: "Igihe umushinga uzamara giterwa n’ingano y’akazi, ibisabwa n’uko amakuru n’ibitekerezo mutanga biboneka ku gihe. Igihe giteganyijwe kizaganirwaho kandi cyumvikanweho nyuma yo gusuzuma ubusabe bwanyu, mbere y’uko imirimo itangira.",
       fr: "Les délais dépendent du périmètre et des besoins de chaque projet, ainsi que de la disponibilité des contenus et des retours. Le délai prévisionnel est discuté et convenu après examen de votre demande, avant le début des travaux.",
     },
     followUps: {
       en: ["How do I request a service?", "What information should I include?"],
-      rw: ["Uko nshaka serivisi?", "Ni ubuhe bwoko bw’ibyo nashyikirije?"],
+      rw: ["Nigute nasaba serivisi?", "Ni ayahe makuru ngomba gutanga?"],
       fr: [
         "Comment demander un service ?",
         "Quelles informations dois-je fournir ?",
@@ -1179,7 +1181,7 @@ export const supportIntents = [
     },
     answer: {
       en: "To request a service:\n1. Open the Request a Service page.\n2. Select the service or services you need.\n3. Describe your project, the objective and any deadline or budget range.\n4. Review the details and submit the form.\n\nThe form asks only for the information needed to review your request. If you prefer, I can help you prepare the request here and then take you to the form with the details already filled in — you always review and submit it yourself.",
-      rw: "Kugira ngo ushake serivisi:\n1. Fungura ipaji ya Gusaba Serivisi.\n2. Hitamo serivisi cyangwa serivisi ukeneye.\n3. Sobanura umushinga wowe, intego, igihe cyangwa igiciro ushobora kwishyura.\n4. Reba ibikoresho kandi ohereza ifashiko.\n\nIfashiko risaba gusa ibyo bikenewe kugira ngo tubibere ubusabe wowe. Niba ushaka, nshobora kugufasha gutegura ubusabe hano, hanyuma nkakwigisha ku ifashiko rifite ibikoresho byuzuye — wowe ni wowe uzareba kandi uzatanga.",
+      rw: "Kugira ngo usabe serivisi:\n1. Fungura ipaji ya **Gusaba Serivisi**.\n2. Hitamo serivisi imwe cyangwa nyinshi ukeneye.\n3. Sobanura umushinga wawe, intego yawo, igihe wifuza ko urangirira n’ingengo y’imari ufite, niba bihari.\n4. Ongera usuzume amakuru watanze, hanyuma wohereze ifishi.\n\nIfishi isaba amakuru akenewe kugira ngo itsinda risuzume ubusabe bwawe. Niba ubishaka, nshobora kugufasha gutegura ubusabe hano, hanyuma nkaguha uburyo bwo gufungura ifishi yuzuyemo amakuru watanze. Uzabanza kuyasuzuma kandi abe ari wowe wohereza ubusabe.",
       fr: "Pour demander un service :\n1. Ouvrez la page Demander un service.\n2. Sélectionnez le ou les services souhaités.\n3. Décrivez votre projet, l'objectif, et toute échéance ou fourchette de budget.\n4. Relisez les informations et envoyez le formulaire.\n\nLe formulaire ne demande que les informations nécessaires à l'examen de votre demande. Si vous le souhaitez, je peux vous aider à préparer la demande ici puis vous emmener vers le formulaire pré-rempli : vous relisez et validez toujours vous-même.",
     },
     followUps: {
@@ -1189,9 +1191,9 @@ export const supportIntents = [
         "How long will it take?",
       ],
       rw: [
-        "Ni ubuhe bwoko bw’ibyo nashyikirije?",
-        "Ushobora kugufasha gutegura ubusabe?",
-        "Bizamara igihe iki?",
+        "Ni ayahe makuru ngomba gutanga?",
+        "Mwanshobora gufasha gutegura ubusabe?",
+        "Umushinga uzamara igihe kingana iki?",
       ],
       fr: [
         "Quelles informations dois-je fournir ?",
@@ -1204,7 +1206,7 @@ export const supportIntents = [
         to: "/request-service",
         label: {
           en: "Open the request form",
-          rw: "Fungura ifashiko rya Serivisi",
+          rw: "Fungura ifishi yo gusaba serivisi",
           fr: "Ouvrir le formulaire",
         },
       },
@@ -1267,7 +1269,7 @@ export const supportIntents = [
     },
     answer: {
       en: "I can help you prepare a service request step by step. I will ask for a few short answers, summarise them for you, and then give you a button that opens the request form with your details filled in. You always review everything and submit it yourself — I never send anything on your behalf.",
-      rw: "Nshobora kugufasha gutegura ubusabe bw'akazi intambomo y'intambomo. Nkajya kukubaza ibibazo bike gusa, nyuma nkakugirira mu mukuru, hanyuma nkakuhitamo ik button iifungura ifashiko ry'ubusabe rifite ibikoresho byuzuye. Wowe ni wowe uzareba byose kandi uzatanga — ntikohereza ikigize kundi.",
+      rw: "Nshobora kugufasha gutegura ubusabe bwa serivisi intambwe ku yindi. Nzakubaza ibibazo bike, nkusanyirize hamwe ibisubizo byawe, hanyuma nguhe buto ifungura ifishi yo gusaba serivisi yuzuyemo amakuru watanze. Uzabanza gusuzuma amakuru yose kandi abe ari wowe wohereza ubusabe; sinshobora kubwohereza mu izina ryawe.",
       fr: "Je peux vous aider à préparer une demande de service étape par étape. Je vous poserai quelques questions brèves, je résumerai vos réponses, puis je vous proposerai un bouton qui ouvre le formulaire pré-rempli. Vous relisez toujours tout et validez vous-même : je n'envoie jamais rien à votre place.",
     },
     followUps: {
@@ -1283,7 +1285,7 @@ export const supportIntents = [
         to: "/request-service",
         label: {
           en: "Open the request form",
-          rw: "Fungura ifashiko rya Serivisi",
+          rw: "Fungura ifishi yo gusaba serivisi",
           fr: "Ouvrir le formulaire",
         },
       },
@@ -1352,12 +1354,12 @@ export const supportIntents = [
     },
     answer: {
       en: "The number of revision rounds, and what counts as a revision, are agreed as part of the scope before work starts. That way both sides know exactly what is included in the quotation and what would be treated as additional work.",
-      rw: "Umubare w'inzira z'ubuso, n'icyo byitabariye gukora ubuso, bigaragaza mu gahunda y'akazi mbere yo gutangira. Uko ni ko impande zombi zizi neza ibiri mu giciro no icyo byasaba akazi gato.",
+      rw: "Umubare w’inshuro umushinga ushobora kuvugururwa n’ibifatwa nk’ivugurura byumvikanwaho mbere y’uko akazi gatangira. Ibi bifasha impande zombi kumenya neza ibikubiye mu giciro n’akazi k’inyongera gashobora kwishyurwa ukwako.",
       fr: "Le nombre d'allers-retours de révision, et ce qui constitue une révision, sont convenus dans le périmètre avant le début des travaux. Ainsi, les deux parties savent précisément ce qui est inclus dans le devis et ce qui serait facturé comme travail supplémentaire.",
     },
     followUps: {
       en: ["How do I request a service?", "How much does a project cost?"],
-      rw: ["Uko nshaka serivisi?", "Igiciro cy’umushinga ni iki?"],
+      rw: ["Nigute nasaba serivisi?", "Igiciro cy’umushinga gitegurwa gite?"],
       fr: ["Comment demander un service ?", "Combien coûte un projet ?"],
     },
     links: [
@@ -1365,7 +1367,7 @@ export const supportIntents = [
         to: "/faq",
         label: {
           en: "Read the FAQ",
-          rw: "Soma ibibazo bishingiye",
+          rw: "Soma ibibazo bikunze kubazwa",
           fr: "Lire la FAQ",
         },
       },
@@ -1427,12 +1429,12 @@ export const supportIntents = [
     },
     answer: {
       en: "King Business Studio works in English, Kinyarwanda and French. The website and the request forms are available in all three languages, and you can submit your request in whichever language you prefer. The language for project communication is agreed with the team.",
-      rw: "King Business Studio ikora mu Cyangereza, Ikinyarwanda no Ifransa. Website n'ifashiko by'ubusabe biri mu indimi zose, kandi ushobora kohereza ubusabe mu ururimi urakunda. Indimi ikoreshwa mu kiganiro igaragarijwe n'itsinda.",
+      rw: "King Business Studio ikoresha Icyongereza, Ikinyarwanda n’Igifaransa. Website n’amafishi yo gusaba serivisi biboneka muri izo ndimi uko ari eshatu, kandi ushobora kohereza ubusabe mu rurimi wumva wisanzuyemo. Ururimi ruzakoreshwa mu itumanaho ry’umushinga ruzumvikanwaho n’itsinda.",
       fr: "King Business Studio travaille en anglais, en kinyarwanda et en français. Le site et les formulaires de demande sont disponibles dans les trois langues, et vous pouvez envoyer votre demande dans celle que vous préférez. La langue de communication du projet est convenue avec l'équipe.",
     },
     followUps: {
       en: ["How do I request a service?", "See the FAQ"],
-      rw: ["Uko nshaka serivisi?", "Reba ibibazo bishingiye"],
+      rw: ["Nigute nasaba serivisi?", "Reba ibibazo bishingiye"],
       fr: ["Comment demander un service ?", "Voir la FAQ"],
     },
     links: [
@@ -1440,7 +1442,7 @@ export const supportIntents = [
         to: "/faq",
         label: {
           en: "Read the FAQ",
-          rw: "Soba ibibazo bishingiye",
+          rw: "Soma ibibazo bikunze kubazwa",
           fr: "Lire la FAQ",
         },
       },
@@ -1513,7 +1515,7 @@ export const supportIntents = [
     },
     answer: {
       en: "The portfolio currently shows three projects: a Professional Company Profile, a Modern Brand Identity, and a Business Website Concept. All three are labelled as concept or demo work, created by KBS to demonstrate capabilities — they are not real client engagements. Real work is added as it is completed and approved for publication.",
-      rw: "Portfolio igezweho ibiganza bitatu: Icyo Makuru y'Ikigo, Igihano Gihanganara, no Uruhererekane rw'Website y'Ikigo. Byose byakandikwa ko bwa concept cyangwa demo, byakozwe na KBS kugira ngo bigeze bigaragaza ubushakashatsi — ntibwa mirimo y'umukiriya nyakuri. Akazi nyakuri gatangira kurikira ko kwakira no gukwizigisha ko gushyikishwa.",
+      rw: "Portfolio ya KBS igaragaza imishinga itatu: Umwirondoro w’Ikigo w’Umwuga, Imiterere Ndangamuranga y’Ikirango igezweho, n’Igitekerezo cya Website y’Ubucuruzi. Iyi mishinga yose igaragazwa nk’icyitegererezo (concept/demo) yakozwe na KBS kugira ngo yerekane ubushobozi bwayo; si imishinga yakorewe abakiriya nyakuri. Imirimo nyakuri izongerwamo imaze gukorwa no kwemezwa ko ishobora gushyirwa ahagaragara.",
       fr: "Le portfolio présente actuellement trois projets : un Profil d'Entreprise Professionnel, une Identité de Marque Moderne et un Concept de Site Web d'Entreprise. Les trois sont indiqués comme créations concept ou démo, réalisées par KBS pour démontrer ses compétences — ce ne sont pas de vraies missions clients. Les travaux réels sont ajoutés à mesure qu'ils sont réalisés et approuvés.",
     },
     followUps: {
@@ -1523,9 +1525,9 @@ export const supportIntents = [
         "See the Business Website Concept",
       ],
       rw: [
-        "Reba Icyo Makuru y’Ikigo",
-        "Reba Igihano Gihanganara",
-        "Reba Uruhererekane rw’Website",
+        "Reba umwirondoro w’ikigo",
+        "Reba imiterere ndangamuranga y’ikirango",
+        "Reba igitekerezo cya website",
       ],
       fr: [
         "Voir le Profil d’Entreprise",
@@ -1622,12 +1624,12 @@ export const supportIntents = [
     },
     answer: {
       en: "The fastest way to reach KBS is the contact form or the service request form on this website — both are reviewed by the team. Official email, phone and social links are added to the Contact and Footer pages once they are confirmed by the business.",
-      rw: "Inzira y'ihuta kurikira KBS ni ifashiko ry'uhoyane cyangwa ry'ubusabe serivisi kuri iyi website — byombi bigenzurwa n'itsinda. Email, telefone na mirongo y'uburasobe byemewe byongerwa ku ipaji ya Uhoyane no Footer nyuma yo kuzemeza.",
+      rw: "Uburyo bworoshye bwo kuvugana na KBS ni ukuzuza ifishi yo ku ipaji ya **Twandikire** cyangwa iyo **Gusaba Serivisi** kuri iyi website. Ubutumwa busuzumwa n’itsinda. Aderesi ya imeri, nimero za telefoni n’izindi nzira z’itumanaho bizongerwa ku ipaji ya Twandikire no ku gice cyo hasi cya website bimaze kwemezwa.",
       fr: "Le moyen le plus rapide de joindre KBS est le formulaire de contact ou le formulaire de demande de service de ce site — les deux sont examinés par l'équipe. L'adresse e-mail, le téléphone et les liens sociaux officiels sont ajoutés aux pages Contact et Pied de page une fois confirmés par l'entreprise.",
     },
     followUps: {
       en: ["How do I request a service?", "Read the FAQ"],
-      rw: ["Uko nshaka serivisi?", "Soma ibibazo bishingiye"],
+      rw: ["Nigute nasaba serivisi?", "Soma ibibazo bikunze kubazwa"],
       fr: ["Comment demander un service ?", "Lire la FAQ"],
     },
     links: [
@@ -1635,7 +1637,7 @@ export const supportIntents = [
         to: "/contact",
         label: {
           en: "Contact page",
-          rw: "Ipaji ya Uhoyane",
+          rw: "Ipaji ya Twandikire",
           fr: "Page Contact",
         },
       },
@@ -1725,12 +1727,12 @@ export const supportIntents = [
     },
     answer: {
       en: "Payment arrangements are confirmed in writing as part of the agreed scope for each project. Submit your request first so the team can review the work involved and confirm the terms that apply to your project.",
-      rw: "Amayengo y'ishyura ashyirizwa mu gahunda y'akazi yasinyiwe, ukurikira buri mushinga. Ohereza ubusabe wowe mbere kugira ngo itsinda ry'akarango ibibere ibigenewe no kuzimiza amayengo ashobira kwa wowe.",
+      rw: "Uburyo bwo kwishyura n’ingengabihe yabwo byumvikanwaho kandi bikandikwa mu masezerano y’umushinga, bitewe n’imiterere yawo. Banza wohereze ubusabe bwawe kugira ngo itsinda risuzume ibyo ukeneye, hanyuma rigusobanurire uburyo bwo kwishyura bushoboka.",
       fr: "Les modalités de paiement sont confirmées par écrit dans le périmètre convenu de chaque projet. Envoyez d'abord votre demande afin que l'équipe puisse examiner les travaux prévus et préciser les conditions applicables à votre projet.",
     },
     followUps: {
       en: ["How do I request a service?", "How much does a project cost?"],
-      rw: ["Uko nshaka serivisi?", "Igiciro cy’umushinga ni iki?"],
+      rw: ["Nigute nasaba serivisi?", "Igiciro cy’umushinga gitegurwa gite?"],
       fr: ["Comment demander un service ?", "Combien coûte un projet ?"],
     },
     links: [
@@ -1805,12 +1807,12 @@ export const supportIntents = [
     },
     answer: {
       en: "Every project follows the same five steps:\n1. Share your idea — the service you need and what you want to achieve.\n2. Discuss the requirements — content, references, audience and constraints.\n3. Confirm the scope — deliverables, pricing and timeline are agreed.\n4. Work on the solution — drafts are prepared and shared for feedback.\n5. Review and deliver — the final files are handed over.\n\nNothing is finalised until the scope is agreed, so you always know what you are getting.",
-      rw: "Buri mushinga ukurikiza amahazi atandatu:\n1. Shereka igitekerezo wowe — serivisi ukeneye n'ibyo ushaka kugerageza.\n2. Ganira ibyo ukeneye — ibikoresho, ingero, abagenera b'umusanzwe n'ibiciro.\n3. Emeza ingero y'akazi — ibikoresho, igiciro n'igihe bigaragaza.\n4. Akora umuti — imyaka ishyirizwa ikaguruka kugira n'ubuzima.\n5. Reba uhando — idosi za nyuma zishyikirizwa.\n\nNta byigeze biba ngombwa mbere yo kubyumvisha ingero, kugira ngo ubibone neza ibyo uzabona.",
+      rw: "Buri mushinga ukurikiza intambwe eshanu:\n1. **Tanga igitekerezo cyawe** — sobanura serivisi ukeneye n’icyo wifuza kugeraho.\n2. **Muganire ku bisabwa** — amakuru, ingero, abo umushinga ugenewe n’imbogamizi zihari.\n3. **Mwumvikane ku byo umushinga uzaba ukubiyemo** — imirimo izakorwa, igiciro n’igihe izamara.\n4. **Akazi gakorwe** — hategurwa inyandiko cyangwa igishushanyo cy’ibanze, mugatanga ibitekerezo ku byo mwakiriye.\n5. **Musuzume kandi muhabwe ibyakorewe** — dosiye za nyuma zishyikirizwa umukiriya.\n\nNta mirimo ya nyuma itangira mbere y’uko mwumvikana ku byo umushinga uzaba ukubiyemo, bityo ukamenya neza ibyo uzahabwa.",
       fr: "Chaque projet suit les mêmes cinq étapes :\n1. Partagez votre idée — le service recherché et votre objectif.\n2. Discutez des besoins — contenus, références, audience et contraintes.\n3. Confirmez le périmètre — livrables, prix et délais sont convenus.\n4. Réalisation — les premières versions sont partagées pour avis.\n5. Relecture et livraison — les fichiers finaux sont transmis.\n\nRien n'est figé avant la validation du périmètre : vous savez toujours ce que vous obtenez.",
     },
     followUps: {
       en: ["How do I request a service?", "What information should I include?"],
-      rw: ["Uko nshaka serivisi?", "Ni ubuhe bwoko bw’ibyo nashyikirije?"],
+      rw: ["Nigute nasaba serivisi?", "Ni ayahe makuru ngomba gutanga?"],
       fr: [
         "Comment demander un service ?",
         "Quelles informations dois-je fournir ?",
@@ -1821,7 +1823,7 @@ export const supportIntents = [
         to: "/services",
         label: {
           en: "Explore our services",
-          rw: "Reba serivisi zacu",
+          rw: "Reba serivisi dutanga",
           fr: "Découvrir nos services",
         },
       },
@@ -1900,12 +1902,12 @@ export const supportIntents = [
     },
     answer: {
       en: "Information you submit through the forms is used to review and respond to your request, and is delivered through Formspree. Nothing you type in this support chat is sent to an external AI provider or stored on a server by this website — the conversation stays in this browser tab until you clear it or close the page. See the Privacy Policy page for the full description.",
-      rw: "Ubutumwa ohereza mu ifashiko bukoreshwa kugenzura no gusubiza ubusabe wowe, kandi bukoherezwa hifashishwa Formspree. Ibikandikiye muri kagufu k'umufasha ntibwohera serivisi yo hanze y'AI, ntibwifatikwa ku seriveri n'iyi website — ikiganiro gisigaye muri iyi tabi y'umucbrowser kugeza aho ukabyisemo gukyibuka cyangwa gufunga ifashiko. Reba ipaji ya Politiki y'Ibinyamakuru kugira n'ibisobanuro byose.",
+      rw: "Amakuru wohereza ukoresheje amafishi akoreshwa mu gusuzuma no gusubiza ubusabe bwawe, kandi anyuzwa muri Formspree. Amakuru wandika muri aka gafasha abakiriya ntabwo yoherezwa ku yindi serivisi ya AI cyangwa ngo abikwe kuri seriveri y’iyi website. Ikiganiro kiguma muri aka gace ka mushakisha kugeza ugisibye cyangwa ugafunze ipaji. Soma Politiki y’Ibanga kugira ngo umenye ibisobanuro birambuye.",
       fr: "Les informations envoyées via les formulaires servent à examiner et répondre à votre demande, et sont transmises par Formspree. Ce que vous saisissez dans ce chat n'est envoyé à aucun fournisseur d'IA externe ni stocké sur un serveur par ce site : la conversation reste dans cet onglet jusqu'à ce que vous l'effaciez ou fermiez la page. Consultez la page Politique de confidentialité pour la description complète.",
     },
     followUps: {
       en: ["Read the privacy policy", "How do I request a service?"],
-      rw: ["Soma politiki y’ibinyamakuru", "Uko nshaka serivisi?"],
+      rw: ["Soma politiki y’ibanga", "Nigute nasaba serivisi?"],
       fr: [
         "Lire la politique de confidentialité",
         "Comment demander un service ?",
@@ -1916,7 +1918,7 @@ export const supportIntents = [
         to: "/privacy-policy",
         label: {
           en: "Read the privacy policy",
-          rw: "Soma politiki y’ibinyamakuru",
+          rw: "Soma politiki y’ibanga",
           fr: "Lire la politique de confidentialité",
         },
       },
@@ -1975,7 +1977,7 @@ export const supportIntents = [
     },
     answer: {
       en: "The FAQ page covers pricing, timelines, revisions, languages, the request process, privacy and the projects in the portfolio. If your question is not listed there, send it through the contact form and the team will answer it directly.",
-      rw: "Ipaji y'ibibazo bishingiye igira ku bindi: igiciro, igihe, ubuso, indimi, uburyo bwo gusaba, ubwibone, no ibiganza by'portfolio. Niba ikibazo cyawe ntibonekaha, kohereza mu ifashiko ry'uhoyane kandi itsinda ry'aragaza.",
+      rw: "Ipaji y’Ibibazo Bikunze Kubazwa isubiza ibibazo birebana n’ibiciro, igihe imishinga imara, ivugururwa ry’akazi, indimi, uburyo bwo gusaba serivisi, ibanga ry’amakuru na portfolio. Niba utabonye igisubizo cy’ikibazo cyawe, ohereza ubutumwa ukoresheje ifishi yo kutwandikira kugira ngo itsinda rya KBS rigusubize.",
       fr: "La page FAQ couvre les prix, les délais, les révisions, les langues, le processus de demande, la confidentialité et les projets du portfolio. Si votre question n'y figure pas, envoyez-la via le formulaire de contact : l'équipe vous répondra directement.",
     },
     followUps: {
@@ -1985,9 +1987,9 @@ export const supportIntents = [
         "How do I request a service?",
       ],
       rw: [
-        "Igiciro cy’umushinga ni iki?",
-        "Bizamara igihe iki?",
-        "Uko nshaka serivisi?",
+        "Igiciro cy’umushinga gitegurwa gite?",
+        "Umushinga uzamara igihe kingana iki?",
+        "Nigute nasaba serivisi?",
       ],
       fr: [
         "Combien coûte un projet ?",
@@ -2000,7 +2002,7 @@ export const supportIntents = [
         to: "/faq",
         label: {
           en: "Open the FAQ",
-          rw: "Fungura ibibazo bishingiye",
+          rw: "Fungura ibibazo bikunze kubazwa",
           fr: "Ouvrir la FAQ",
         },
       },
@@ -2080,7 +2082,7 @@ export const supportIntents = [
     },
     answer: {
       en: "King Business Studio (KBS) is a business studio focused on three things: professional business documents, memorable graphic design, and modern websites. The approach is straightforward — understand the goal, agree the scope, then do the work properly and deliver it clearly. You can read the full description on the About page.",
-      rw: "King Business Studio (KBS) ni ikigo gikora ibintu bitatu: amanduku y'ubucuruzi, ugaragaza ibinyabiziga, n'ubunyangamugayo b'website. Uburyo bwo kukora ni bwose — understanding intego, kubyumvisha ingero y'akazi, hanyuma gukora neza no gutanga neza. Soma ibisobanuro byose ku ipaji ya KBS.",
+      rw: "King Business Studio (KBS) ni ikigo gitanga serivisi mu byiciro bitatu: inyandiko z’ubucuruzi, igishushanyo mbonera n’iterambere rya website. Uburyo dukoramo buroroshye: tubanza gusobanukirwa intego y’umukiriya, tukumvikana ku byo umushinga uzaba ukubiyemo, hanyuma tugakora akazi kinyamwuga kandi tugatanga ibyumvikanyweho. Soma ibisobanuro birambuye ku ipaji ya **Abo Turibo**.",
       fr: "King Business Studio (KBS) est un studio spécialisé dans trois domaines : les documents professionnels, le design graphique et les sites web modernes. La démarche est simple : comprendre l'objectif, convenir du périmètre, puis réaliser le travail correctement et le livrer clairement. Vous pouvez lire la description complète sur la page À propos.",
     },
     followUps: {
@@ -2090,9 +2092,9 @@ export const supportIntents = [
         "How do I request a service?",
       ],
       rw: [
-        "Ni ubuhe serivisi KBS itanga?",
+        "Ni izihe serivisi KBS itanga?",
         "Reba portfolio",
-        "Uko nshaka serivisi?",
+        "Nigute nasaba serivisi?",
       ],
       fr: [
         "Quels services KBS propose-t-il ?",
@@ -2103,7 +2105,7 @@ export const supportIntents = [
     links: [
       {
         to: "/about",
-        label: { en: "About KBS", rw: "KBS byiza", fr: "À propos de KBS" },
+        label: { en: "About KBS", rw: "Abo Turibo — KBS", fr: "À propos de KBS" },
       },
       {
         to: "/portfolio",
@@ -2179,12 +2181,12 @@ export const supportIntents = [
     },
     answer: {
       en: "You're welcome. If you are ready to start, the Request a Service form is the fastest way to reach the team — and I can help you prepare the details first if you like.",
-      rw: "Murakoze. Niba witeguye gutangira, ifashiko rya Gusaba Serivisi ni inzira y'ihuta kurikira itsinda — kandi nshobora kugufasha gutegura ibikoresho mbere niba ushaka.",
+      rw: "Murakoze. Niba mwiteguye gutangira, mwakoresha ifishi ya **Gusaba Serivisi** kugira ngo mugere ku itsinda rya KBS. Nshobora no kubafasha gutegura amakuru akenewe mbere yo kuzuza iyo fishi.",
       fr: "De rien. Si vous êtes prêt à commencer, le formulaire Demander un service est le moyen le plus rapide de joindre l'équipe — et je peux vous aider à préparer les informations au préalable si vous le souhaitez.",
     },
     followUps: {
       en: ["Request a service", "Explore our services"],
-      rw: ["Saba serivisi", "Reba serivisi zacu"],
+      rw: ["Saba serivisi", "Reba serivisi dutanga"],
       fr: ["Demander un service", "Découvrir nos services"],
     },
     links: [
@@ -2205,7 +2207,7 @@ export const supportIntents = [
  */
 export const supportWelcome = {
   en: "Hello! Welcome to King Business Studio. I can help you explore our services, find answers to common questions, and prepare your service request. What would you like to know?",
-  rw: "Muraho! Murakaza neza muri King Business Studio. Nshobora kugufasha kugenzura serivisi zacu, kubona ibisobanuro ku ibibazo bisanzwe, no gutegura ubusabe bw'akazi. Nimba mu byo mwishimiye?",
+  rw: "Muraho! Murakaza neza muri King Business Studio (KBS). Nshobora kubafasha kumenya serivisi dutanga, gusubiza ibibazo bikunze kubazwa no gutegura ubusabe bwa serivisi. Ni iki mwifuza kumenya?",
   fr: "Bonjour ! Bienvenue chez King Business Studio. Je peux vous aider à découvrir nos services, à trouver des réponses aux questions fréquentes et à préparer votre demande de service. Que souhaitez-vous savoir ?",
 };
 
@@ -2219,7 +2221,7 @@ export const supportQuickActions = [
     action: { type: "navigate", to: "/services" },
     label: {
       en: "Explore Our Services",
-      rw: "Reba Serivisi Zacu",
+      rw: "Reba serivisi dutanga",
       fr: "Découvrir Nos Services",
     },
   },
@@ -2228,7 +2230,7 @@ export const supportQuickActions = [
     action: { type: "navigate", to: "/services/business-documents" },
     label: {
       en: "Business Documents",
-      rw: "Amanduku y’Ubucuruzi",
+      rw: "Inyandiko z’Ubucuruzi",
       fr: "Documents Professionnels",
     },
   },
@@ -2237,7 +2239,7 @@ export const supportQuickActions = [
     action: { type: "navigate", to: "/services/graphic-design" },
     label: {
       en: "Graphic Design",
-      rw: "Ugaragaza Ibinyabiziga",
+      rw: "Igishushanyo Mbonera",
       fr: "Design Graphique",
     },
   },
@@ -2246,7 +2248,7 @@ export const supportQuickActions = [
     action: { type: "navigate", to: "/services/web-development" },
     label: {
       en: "Web Development",
-      rw: "Ubunyangamugayo b’Website",
+      rw: "Iterambere rya Website",
       fr: "Développement Web",
     },
   },
@@ -2255,7 +2257,7 @@ export const supportQuickActions = [
     action: { type: "navigate", to: "/request-service" },
     label: {
       en: "How to Request a Service",
-      rw: "Uko Gusaba Serivisi",
+      rw: "Uko wasaba serivisi",
       fr: "Comment Demander un Service",
     },
   },
@@ -2264,7 +2266,7 @@ export const supportQuickActions = [
     action: { type: "ask", intentId: "pricing" },
     label: {
       en: "Pricing and Quotes",
-      rw: "Igiciro n’Imyaka",
+      rw: "Ibiciro n’amakuru y’igiciro",
       fr: "Tarifs et Devis",
     },
   },
@@ -2280,7 +2282,7 @@ export const supportQuickActions = [
   {
     id: "qa-contact",
     action: { type: "navigate", to: "/contact" },
-    label: { en: "Contact KBS", rw: "Vugana na KBS", fr: "Contacter KBS" },
+    label: { en: "Contact KBS", rw: "Twandikire", fr: "Contacter KBS" },
   },
 ];
 
@@ -2291,7 +2293,7 @@ export const supportQuickActions = [
  */
 export const supportDisclosure = {
   en: "This is an automated, rule-based support assistant that answers using KBS’s approved website information.",
-  rw: "Uyu ni umufasha w’ubuzike ukoresha amakuru yemewe y’website ya KBS, ntabwo ari umuntu cyangwa AI generative.",
+  rw: "Uyu ni umufasha w’abakiriya wa KBS ukorera ku mategeko n’amakuru yemejwe ari kuri website. Si umuntu kandi ntakoresha AI ibyara ibisubizo bishya.",
   fr: "Il s'agit d'un assistant de support automatisé, fondé sur des règles, qui répond à partir des informations approuvées du site KBS.",
 };
 
@@ -2300,7 +2302,7 @@ export const supportDisclosure = {
  */
 export const supportPrivacyNotice = {
   en: "This conversation stays in your browser tab. It is cleared when you clear the chat or close the page, and nothing you type here is sent to an AI provider.",
-  rw: "Ikiganiro giciye muri iyi tabi y’umucbrowser. Gisoboka igihe usubiramo ikiganiro cyangwa ufunza ifashiko, kandi ibikandikiye hano ntibwohera serivisi yo hanze y’AI.",
+  rw: "Iki kiganiro kiguma muri aka gace ka mushakisha. Gishobora gusibwa igihe usibye ikiganiro cyangwa ugafunga ipaji. Ibyo wandika hano ntabwo byoherezwa ku yindi serivisi ya AI.",
   fr: "Cette conversation reste dans cet onglet. Elle est effacée lorsque vous videz la discussion ou fermez la page, et rien de ce que vous saisissez ici n'est envoyé à un fournisseur d'IA.",
 };
 
@@ -2309,7 +2311,7 @@ export const supportPrivacyNotice = {
  */
 export const supportFallback = {
   en: "I'm not sure I have the right answer to that question. You can explore our services, visit the FAQ page, or submit a request so the KBS team can review your needs.",
-  rw: "Sinumizi ko mfite igisobanuro gikwiye ku kibazo cyawe. Ushobora kugenzura serivisi zacu, gusura ipaji y'ibibazo bishingiye, cyangwa kohereza ubusabe kugira ngo itsinda rya KBS ribere ibyo ukeneye.",
+  rw: "Ntabwo mfite igisubizo cyizewe ku kibazo cyawe muri aka kanya. Ushobora kureba serivisi zacu, gusura ipaji y’Ibibazo Bikunze Kubazwa cyangwa kohereza ubusabe kugira ngo itsinda rya KBS risuzume ibyo ukeneye.",
   fr: "Je ne suis pas certain d'avoir la bonne réponse à cette question. Vous pouvez découvrir nos services, consulter la page FAQ, ou envoyer une demande afin que l'équipe KBS examine vos besoins.",
 };
 
@@ -2318,7 +2320,7 @@ export const supportFallback = {
  */
 export const supportClarification = {
   en: "I want to make sure I answer the right question. Which of these is closest to what you need?",
-  rw: "Nshaka kumenya neza ko nagaragaza ibisobanuro by’icyo ukeneye. Ni ikihe muri ibi cyegeraaho ibyo ushaka?",
+  rw: "Ndifuza kumenya neza ko ngusubiza neza. Ni iki muri ibi cyegereye ibyo ukeneye?",
   fr: "Je veux être sûr de répondre à la bonne question. Lequel de ces sujets correspond le mieux à votre besoin ?",
 };
 
@@ -2328,8 +2330,9 @@ export const supportClarification = {
  */
 export const supportError = {
   en: "Something went wrong while preparing that answer. Please try again, or use the links below to reach the right page directly.",
-  rw: "Hari ikitagenze neza mu gutegura igisobanuro. Ongera ugerageze, cyangwa ukoreshe imishyana iri hasi kugira ngo ugere ku ipaji igenewe.",
+  rw: "Habaye ikibazo mu gutegura igisubizo. Ongera ugerageze, cyangwa ukoreshe amahuza ari hepfo kugira ngo ujye ku ipaji ijyanye n’icyo ukeneye.",
   fr: "Une erreur est survenue lors de la préparation de cette réponse. Réessayez, ou utilisez les liens ci-dessous pour accéder directement à la bonne page.",
 };
 
 export default supportIntents;
+

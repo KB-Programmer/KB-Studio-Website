@@ -57,13 +57,13 @@ export const socialPlatforms = {
 export const socialLinks = {
   linkedin: { url: '', handle: '' },
   facebook: { url: '', handle: '' },
-  instagram: { url: '', handle: '' },
+  instagram: { url: 'https://www.instagram.com/kingbusiness_studio', handle: 'kingbusiness_studio' },
   tiktok: { url: '', handle: '' },
   youtube: { url: '', handle: '' },
-  whatsapp: { url: '', handle: '' },
+  whatsapp: { url: 'https://t.me/250794038238', handle: 'King Business' },
   telegram: { url: '', handle: '' },
-  github: { url: '', handle: '' },
-  email: { url: '', handle: '' },
+  github: { url: 'https://github.com/KB-Programmer', handle: 'King Business' },
+  email: { url: 'mailto:kingbonheur02@gmail.com', handle: 'King Business' },
 }
 
 /**
