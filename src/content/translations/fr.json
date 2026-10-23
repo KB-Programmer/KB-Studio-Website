@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "localeName": "Français",
+    "siteTitle": "King Business Studio — Documents Professionnels, Design Graphique & Développement Web",
+    "siteDescription": "King Business Studio (KBS) propose des documents professionnels, un design graphique mémorable et des sites web modernes et responsives pour les entreprises et les particuliers, au Rwanda et à l'international."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "support": "Assistance client",
+    "contact": "Contact",
+    "requestService": "Demander un service",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "language": "Langue",
+    "languageSwitcher": "Changer de langue",
+    "skipToContent": "Aller au contenu principal",
+    "primary": "Navigation principale",
+    "footer": "Navigation de pied de page"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "requestThisService": "Demander ce service",
+    "viewAll": "Tout voir",
+    "viewDetails": "Voir les détails",
+    "viewProject": "Voir le projet",
+    "backToPortfolio": "Retour au portfolio",
+    "backToServices": "Retour aux services",
+    "backToTop": "Retour en haut",
+    "close": "Fermer",
+    "copy": "Copier",
+    "copied": "Copié dans le presse-papiers",
+    "copyFailed": "La copie a échoué — sélectionnez le texte manuellement.",
+    "clear": "Effacer",
+    "retry": "Réessayer",
+    "loading": "Chargement…",
+    "send": "Envoyer",
+    "you": "Vous",
+    "assistant": "Assistant",
+    "conceptProject": "Projet concept",
+    "demoProject": "Projet démo",
+    "realProject": "Projet client",
+    "errorGeneric": "Une erreur est survenue. Veuillez réessayer.",
+    "notAvailable": "Non disponible",
+    "optional": "Facultatif",
+    "required": "Obligatoire",
+    "requiredField": "Ce champ est obligatoire.",
+    "yes": "Oui",
+    "no": "Non",
+    "menu": "Menu",
+    "expand": "Déplier",
+    "collapse": "Replier"
+  },
+  "home": {
+    "meta": {
+      "title": "King Business Studio — Un travail professionnel. Des impressions durables.",
+      "description": "Des documents professionnels au design graphique mémorable et aux sites web modernes, King Business Studio transforme vos idées en solutions d'entreprise concrètes, au Rwanda et à l'international."
+    },
+    "hero": {
+      "eyebrow": "VOTRE PARTENAIRE EN BUSINESS & CROISSANCE NUMÉRIQUE",
+      "title": "Un travail professionnel. Des impressions durables.",
+      "description": "Des documents professionnels au design graphique mémorable et aux sites web modernes, nous vous aidons à transformer vos idées en solutions d'entreprise concrètes.",
+      "primaryCta": "Demander un service",
+      "secondaryCta": "Découvrir notre travail",
+      "points": [
+        "Documents Professionnels",
+        "Design Graphique",
+        "Développement Web"
+      ]
+    },
+    "services": {
+      "eyebrow": "CE QUE NOUS FAISONS",
+      "title": "Trois services, une même exigence de qualité.",
+      "description": "Chaque service part du même point : comprendre ce dont vous avez réellement besoin avant de le produire.",
+      "cta": "Voir tous les services"
+    },
+    "why": {
+      "eyebrow": "POURQUOI CHOISIR KBS",
+      "title": "Clair, concret, et construit autour de votre objectif.",
+      "description": "Nous gardons le processus simple et la communication honnête, pour que vous sachiez toujours où en est votre projet.",
+      "items": [
+        {
+          "title": "Présentation professionnelle",
+          "description": "Chaque livrable est préparé selon un standard professionnel cohérent, qu'il s'agisse d'un document, d'un design ou d'un site."
+        },
+        {
+          "title": "Solutions pratiques",
+          "description": "Nous partons du problème à résoudre, puis nous proposons l'approche la plus simple qui le traite bien."
+        },
+        {
+          "title": "Communication claire",
+          "description": "Vous savez ce qui sera livré, ce dont cela dépend, et quelles décisions restent à prendre."
+        },
+        {
+          "title": "Demandes flexibles",
+          "description": "Périmètre, prix et délais sont convenus avec vous avant le début des travaux : le plan peut s'adapter à votre situation."
+        },
+        {
+          "title": "Clients locaux et internationaux",
+          "description": "Nous travaillons avec des clients au Rwanda et à l'étranger, en anglais, en kinyarwanda et en français."
+        }
+      ]
+    },
+    "portfolio": {
+      "eyebrow": "TRAVAUX EN VEDETTE",
+      "title": "Une sélection de projets",
+      "description": "Un aperçu du type de travail que nous produisons. Chaque projet est clairement identifié afin que vous sachiez exactement ce qu'il représente.",
+      "cta": "Voir tout le portfolio",
+      "conceptNotice": "Les projets présentés ci-dessous sont des créations concept et démo réalisées par KBS pour démontrer nos compétences. Il ne s'agit pas de missions clients réelles."
+    },
+    "process": {
+      "eyebrow": "COMMENT ÇA MARCHE",
+      "title": "Cinq étapes, aucune surprise.",
+      "description": "Périmètre, prix et délais sont convenus avec vous avant le début des travaux : vous savez toujours à quoi vous vous engagez.",
+      "steps": [
+        {
+          "title": "Partagez votre idée",
+          "description": "Indiquez le service recherché et l'objectif que vous souhaitez atteindre."
+        },
+        {
+          "title": "Discutez des besoins",
+          "description": "Nous passons en revue les contenus, les références, l'audience et les contraintes."
+        },
+        {
+          "title": "Confirmez le périmètre",
+          "description": "Livrables, prix et délais sont convenus et confirmés par écrit."
+        },
+        {
+          "title": "Réalisation",
+          "description": "Le travail est préparé et vous est transmis pour avis."
+        },
+        {
+          "title": "Relecture et livraison",
+          "description": "Les fichiers finaux et les conseils d'usage vous sont remis, prêts à l'emploi."
+        }
+      ]
+    },
+    "support": {
+      "eyebrow": "ASSISTANCE CLIENT",
+      "title": "Assistant d'assistance KBS",
+      "tagline": "Votre guide des services KBS.",
+      "description": "Une question sur nos services ? Notre assistant d'assistance peut vous aider à découvrir les services KBS, à trouver des réponses aux questions fréquentes et à préparer votre demande de service.",
+      "cta": "Discuter avec l'assistance KBS",
+      "disclosure": "Il s'agit d'un assistant automatisé, fondé sur des règles, qui répond à partir des informations approuvées du site KBS.",
+      "points": [
+        "Explique nos trois catégories de services",
+        "Répond aux questions fréquentes sur les prix, les délais et les révisions",
+        "Vous aide à préparer une demande de service avant son envoi"
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "RETOURS CLIENTS",
+      "title": "Ce que disent les clients",
+      "description": "Nous ne publions un avis qu'après sa relecture et son approbation pour publication.",
+      "emptyTitle": "Vous avez travaillé avec KBS ?",
+      "emptyText": "Les avis clients seront publiés ici une fois relus et approuvés. En attendant, parlez-nous de votre projet.",
+      "emptyCta": "Demander un service"
+    },
+    "social": {
+      "eyebrow": "RESTONS EN CONTACT",
+      "title": "Retrouvez KBS en ligne",
+      "description": "Les liens vérifiés vers nos profils officiels apparaîtront ici dès leur confirmation."
+    },
+    "finalCta": {
+      "title": "Prêt à démarrer votre prochain projet ?",
+      "description": "Décrivez votre besoin : nous examinerons les détails, confirmerons le périmètre et préparerons un devis.",
+      "button": "Demander un service"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Services — Documents Professionnels, Design Graphique & Développement Web | KBS",
+      "description": "Découvrez les trois services principaux de King Business Studio : des documents professionnels, un design graphique mémorable et des sites web modernes et responsives."
+    },
+    "eyebrow": "SERVICES",
+    "title": "Tout ce qu'il faut pour présenter votre activité.",
+    "description": "Trois catégories de services ciblées, chacune réalisée avec le même soin du détail. Choisissez celle qui correspond à votre besoin, ou demandez une combinaison.",
+    "chooseCta": "Demander ce service",
+    "allServicesTitle": "Tous les services",
+    "processTitle": "Le déroulé d'un projet",
+    "processDescription": "Les mêmes cinq étapes s'appliquent à tous les services : vous savez toujours ce qui vient ensuite.",
+    "detailTitle": "Détail du service"
+  },
+  "serviceDetail": {
+    "meta": {
+      "titleSuffix": "Service | King Business Studio"
+    },
+    "deliverablesTitle": "Ce que nous pouvons livrer",
+    "suitableForTitle": "À qui s'adresse ce service",
+    "provideTitle": "Ce qu'il faut nous envoyer",
+    "outcomesTitle": "À quoi vous attendre",
+    "pricingTitle": "Tarifs",
+    "pricingBody": "Les tarifs sont établis sur devis. Le coût dépend du périmètre des travaux : envoyez une demande avec vos besoins et nous l'examinerons pour préparer un devis.",
+    "relatedProjectsTitle": "Projets associés",
+    "relatedFaqsTitle": "Questions fréquentes",
+    "otherServicesTitle": "Découvrir les autres services",
+    "ctaTitle": "Prêt à commencer ?",
+    "ctaBody": "Décrivez votre besoin et nous reviendrons avec un périmètre et un devis.",
+    "ctaButton": "Demander ce service",
+    "noRelatedProjects": "Aucun projet n'est encore publié pour ce service. Un travail conceptuel est en préparation."
+  },
+  "portfolio": {
+    "meta": {
+      "title": "Portfolio — Travaux sélectionnés | King Business Studio",
+      "description": "Parcourez des travaux sélectionnés de King Business Studio : documents professionnels, design graphique et développement web."
+    },
+    "eyebrow": "PORTFOLIO",
+    "title": "Travaux sélectionnés",
+    "description": "Des projets concept et démo produits par KBS pour démontrer nos compétences, clairement identifiés pour que vous sachiez toujours ce que vous regardez.",
+    "filterAll": "Tous les projets",
+    "filterDocuments": "Documents Professionnels",
+    "filterDesign": "Design Graphique",
+    "filterWeb": "Développement Web",
+    "filterLabel": "Filtrer les projets par catégorie",
+    "emptyTitle": "Aucun projet dans cette catégorie pour le moment",
+    "emptyText": "Les projets apparaissent ici une fois terminés et approuvés pour publication.",
+    "objectivesTitle": "Objectifs",
+    "outcomesTitle": "Ce que contient le livrable",
+    "toolsTitle": "Outils et approche",
+    "galleryTitle": "Aperçu",
+    "liveSite": "Voir le site en ligne",
+    "sourceCode": "Voir le code",
+    "categoryLabel": "Catégorie",
+    "statusLabel": "Statut",
+    "yearLabel": "Année",
+    "clientLabel": "Client",
+    "notPublished": "Non publié",
+    "shareTitle": "Partager ce projet",
+    "copyLink": "Copier le lien",
+    "shareCopied": "Lien copié dans le presse-papiers.",
+    "relatedProjectsTitle": "D'autres projets"
+  },
+  "projectDetail": {
+    "notFoundTitle": "Projet introuvable",
+    "notFoundText": "Le projet que vous cherchez n'existe pas ou n'est plus publié."
+  },
+  "about": {
+    "meta": {
+      "title": "À propos de KBS — Un partenaire professionnel pour votre prochaine idée",
+      "description": "King Business Studio est un studio spécialisé dans les documents professionnels, le design graphique mémorable et les sites web modernes."
+    },
+    "eyebrow": "À PROPOS DE KBS",
+    "title": "Un partenaire professionnel pour votre prochaine idée.",
+    "lead": "King Business Studio aide les entreprises et les particuliers à présenter leur travail avec clarté — par des documents, des designs et des sites web d'aspect professionnel et conçus pour être utilisés.",
+    "aboutTitle": "À propos de KBS",
+    "aboutText": "King Business Studio (KBS) est un studio qui intervient dans trois domaines : les documents professionnels, le design graphique et le développement web. Les missions vont d'un CV ou d'un logo isolé aux profils d'entreprise, aux supports de marque et aux sites web complets.\n\nLa démarche est simple. Nous écoutons ce que l'entreprise cherche à accomplir, nous convenons d'un périmètre clair, puis nous réalisons le travail correctement. Rien n'est présenté comme terminé avant d'avoir été relu et le périmètre confirmé.",
+    "missionTitle": "Mission",
+    "missionText": "Fournir des solutions pratiques, professionnelles et créatives qui aident nos clients à communiquer et à se développer.",
+    "visionTitle": "Vision",
+    "visionText": "Devenir un partenaire de confiance pour les solutions d'affaires et numériques au Rwanda et au-delà.",
+    "valuesTitle": "Nos valeurs",
+    "values": [
+      {
+        "title": "Professionnalisme",
+        "description": "Un travail soigné, clair, auquel on peut se fier."
+      },
+      {
+        "title": "Clarté",
+        "description": "Des explications simples de ce qui sera livré, de son coût et de ce qui reste à trancher."
+      },
+      {
+        "title": "Pragmatisme",
+        "description": "Des solutions qui règlent le vrai problème, sans ajouter de complexité."
+      },
+      {
+        "title": "Créativité",
+        "description": "Des choix de design faits pour l'audience, pas pour la décoration."
+      },
+      {
+        "title": "Respect",
+        "description": "Des délais honnêtes, des retours honnêtes et le respect de votre temps."
+      }
+    ],
+    "approachTitle": "Notre manière de travailler",
+    "approachText": "Chaque projet commence par un échange et se termine par une remise claire. Entre les deux, le périmètre reste visible, afin que les décisions soient prises délibérément.",
+    "approachSteps": [
+      "Nous écoutons avant de suggérer quoi que ce soit.",
+      "Nous exposons les options en termes simples.",
+      "Nous convenons du périmètre, des prix et des délais par écrit.",
+      "Nous partageons le travail en cours pour éviter toute surprise.",
+      "Nous livrons des fichiers et des conseils réellement utilisables."
+    ],
+    "servicesTitle": "Ce que nous faisons",
+    "servicesText": "Trois catégories de services, décrites en détail sur la page services.",
+    "ctaTitle": "Vous avez un projet en tête ?",
+    "ctaText": "Expliquez-nous ce que vous cherchez à obtenir et nous examinerons les détails.",
+    "ctaButton": "Demander un service",
+    "draftNotice": "Ces énoncés de mission et de vision sont des brouillons de travail, modifiables à tout moment depuis les fichiers de contenu du site."
+  },
+  "faq": {
+    "meta": {
+      "title": "Questions Fréquentes | King Business Studio",
+      "description": "Réponses sur les services KBS, les prix, les délais, les révisions, les langues, la confidentialité et la façon de demander un service."
+    },
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "description": "Des réponses directes aux questions qui nous sont le plus souvent posées. Si la vôtre n'y figure pas, envoyez-la via le formulaire de contact.",
+    "filterAll": "Toutes",
+    "categoryGeneral": "Général",
+    "categoryDocuments": "Documents Professionnels",
+    "categoryDesign": "Design Graphique",
+    "categoryWeb": "Développement Web",
+    "categoryPricing": "Tarifs & délais",
+    "categoryProcess": "Processus",
+    "categoryPrivacy": "Confidentialité",
+    "filterLabel": "Filtrer les questions par catégorie",
+    "stillTitle": "Une question reste sans réponse ?",
+    "stillText": "Envoyez-la à l'équipe et vous obtiendrez une réponse directe.",
+    "stillCta": "Contacter KBS",
+    "supportTitle": "Ou posez la question à l'assistant",
+    "supportText": "L'assistant d'assistance KBS répond immédiatement aux questions courantes, en utilisant uniquement les informations de ce site.",
+    "supportCta": "Discuter avec l'assistance KBS"
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacter King Business Studio",
+      "description": "Contactez King Business Studio pour une question, une idée ou une demande de projet."
+    },
+    "eyebrow": "CONTACT",
+    "title": "Parlons de votre projet.",
+    "description": "Utilisez le formulaire ci-dessous et l'équipe vous répondra. Si votre question porte sur nos services, l'assistant peut y répondre immédiatement.",
+    "formTitle": "Envoyer un message",
+    "responseNote": "Ce formulaire est transmis directement à l'équipe KBS. Merci de ne pas y inclure d'informations confidentielles que vous neunay pas à partager.",
+    "detailsTitle": "Coordonnées",
+    "detailsText": "Les coordonnées vérifiées apparaissent ici une fois confirmées par l'entreprise.",
+    "noDetailsTitle": "Les coordonnées sont en cours de finalisation",
+    "noDetailsText": "L'adresse e-mail, le téléphone et la localisation officielles ne sont pas encore publiés. Le moyen le plus rapide de nous joindre est le formulaire de cette page ou le formulaire de demande de service.",
+    "socialTitle": "Profils sociaux officiels",
+    "socialText": "Les liens vérifiés vers nos profils officiels apparaissent ici une fois confirmés.",
+    "noSocialTitle": "Les liens sociaux sont en cours de finalisation",
+    "noSocialText": "Nous ne publions pas de liens vers des profils sociaux avant de les avoir vérifiés.",
+    "supportTitle": "Vous préférez une réponse immédiate ?",
+    "supportText": "L'assistant d'assistance KBS couvre nos services, les prix, les délais et le processus de demande.",
+    "supportCta": "Discuter avec l'assistance KBS"
+  },
+  "requestService": {
+    "meta": {
+      "title": "Demander un service | King Business Studio",
+      "description": "Décrivez votre projet à King Business Studio : nous examinerons les détails, confirmerons le périmètre et préparerons un devis."
+    },
+    "eyebrow": "DEMANDER UN SERVICE",
+    "title": "Dites-nous ce qu'il vous faut.",
+    "description": "Partagez les détails de votre projet. Nous les examinerons, confirmerons le périmètre avec vous et préparerons un devis avant le début des travaux.",
+    "formTitle": "Demande de service",
+    "handoffTitle": "Votre brouillon est prêt",
+    "handoffText": "Nous avons pré-rempli le formulaire avec les informations que vous avez données à l'assistant. Veuillez relire et modifier chaque champ avant l'envoi.",
+    "handoffDismiss": "Commencer une demande vierge",
+    "assistTitle": "Vous ne savez pas quoi écrire ?",
+    "assistText": "L'assistant d'assistance KBS peut vous poser quelques questions et préparer un résumé que vous pourrez relire.",
+    "assistCta": "Préparer une demande avec l'assistant",
+    "responseNote": "Nous ne demandons que les informations nécessaires à l'examen de votre demande. L'envoi de ce formulaire ne lance aucun travail : nous confirmons d'abord le périmètre et le devis avec vous."
+  },
+  "forms": {
+    "fields": {
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "country": "Pays",
+      "preferredLanguage": "Langue préférée",
+      "serviceCategory": "Catégorie de service",
+      "projectTitle": "Titre du projet",
+      "projectDetails": "Détails du projet",
+      "budgetRange": "Fourchette de budget",
+      "desiredDeadline": "Échéance souhaitée",
+      "preferredContactMethod": "Mode de contact préféré",
+      "websiteUrl": "URL du site ou du portfolio",
+      "subject": "Objet",
+      "message": "Message"
+    },
+    "placeholders": {
+      "fullName": "Votre nom complet",
+      "email": "vous@entreprise.com",
+      "country": "ex. Rwanda",
+      "projectTitle": "Un nom court pour votre projet",
+      "projectDetails": "De quoi avez-vous besoin, pour qui, et quel résultat visez-vous ?",
+      "websiteUrl": "https://",
+      "subject": "De quoi parle votre message ?",
+      "message": "Écrivez votre message ici"
+    },
+    "hints": {
+      "projectDetails": "Plus vous êtes précis, plus notre réponse sera utile.",
+      "budgetRange": "Facultatif. Une fourchette aide à proposer la bonne approche.",
+      "desiredDeadline": "Facultatif. Indiquez la date que vous visez.",
+      "websiteUrl": "Facultatif. Utile si vous avez déjà des travaux en ligne.",
+      "privacyConsent": "Obligatoire. Vos informations servent uniquement à examiner et traiter cette demande.",
+      "country": "Obligatoire. Cela nous aide à répondre dans le bon fuseau horaire et la bonne langue."
+    },
+    "options": {
+      "budgetRanges": [
+        "Moins de 200 $",
+        "200 $ – 500 $",
+        "500 $ – 1 500 $",
+        "1 500 $ – 5 000 $",
+        "Plus de 5 000 $",
+        "Je ne sais pas encore"
+      ],
+      "contactMethods": [
+        "E-mail",
+        "Téléphone",
+        "WhatsApp",
+        "L'un de ces moyens"
+      ],
+      "subjects": [
+        "Une nouvelle demande de service",
+        "Une question sur vos services",
+        "Le suivi d'une demande précédente",
+        "Autre chose"
+      ],
+      "languages": [
+        "Anglais",
+        "Kinyarwanda",
+        "Français"
+      ]
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "emailInvalid": "Saisissez une adresse e-mail valide, par exemple nom@exemple.com.",
+      "urlInvalid": "Saisissez une URL complète commençant par https://.",
+      "consentRequired": "Confirmez que vous avez lu et accepté la politique de confidentialité.",
+      "termsInvalid": "Vérifiez les champs signalés et réessayez.",
+      "selectService": "Sélectionnez au moins un service."
+    },
+    "states": {
+      "submitting": "Envoi…",
+      "successTitle": "Demande reçue",
+      "successBody": "Votre message a été accepté par le service de traitement des formulaires. L'équipe KBS examinera les détails et vous répondra.",
+      "successContactBody": "Votre message a été accepté par le service de traitement des formulaires. L'équipe KBS l'examinera et vous répondra.",
+      "errorTitle": "Votre message n'a pas été envoyé",
+      "errorBody": "Le service de traitement des formulaires a rejeté cet envoi. Vérifiez les détails et réessayez.",
+      "networkTitle": "Problème de connexion",
+      "networkBody": "Nous n'avons pas pu joindre le service de traitement des formulaires. Vos informations sont toujours là — vérifiez votre connexion et réessayez.",
+      "notConfiguredTitle": "Les demandes en ligne ne sont pas encore disponibles",
+      "notConfiguredBody": "Ce formulaire n'est pas encore relié à une destination active : rien n'a été envoyé. En attendant, contactez KBS via les options de la page Contact.",
+      "duplicateBlocked": "Votre demande est déjà en cours d'envoi. Patientez un instant."
+    },
+    "submit": "Envoyer la demande",
+    "submitContact": "Envoyer le message",
+    "requiredLegend": "Champ obligatoire",
+    "optionalLegend": "Champ facultatif"
+  },
+  "support": {
+    "launcherLabel": "Discuter avec l'assistance KBS",
+    "title": "Assistant d'assistance KBS",
+    "tagline": "Votre guide des services KBS.",
+    "open": "Ouvrir le chat d'assistance",
+    "close": "Fermer le chat d'assistance",
+    "placeholder": "Posez une question sur les services, les prix, les délais…",
+    "send": "Envoyer le message",
+    "quickActionsTitle": "Actions rapides",
+    "followUpsTitle": "Vous pourriez aussi demander",
+    "copyAnswer": "Copier cette réponse",
+    "clearConversation": "Effacer la conversation",
+    "clearConfirm": "Effacer toute la conversation ?",
+    "clearConfirmYes": "Oui, effacer",
+    "clearConfirmNo": "Garder",
+    "contactCta": "Contacter KBS",
+    "requestCta": "Demander un service",
+    "disclosureLabel": "Assistant automatisé",
+    "assistantNature": "Ce n’est pas une personne et il n’utilise aucun modèle d’IA générative. Tout ce qu’il dit provient du contenu approuvé de ce site : vérifiez les informations importantes avant de vous y fier.",
+    "privacyLabel": "Confidentialité",
+    "retry": "Reformuler",
+    "thinking": "L'assistance KBS est en train de répondre…",
+    "newMessage": "Nouveau message d'assistance",
+    "assistantName": "Assistance KBS",
+    "visitorName": "Vous",
+    "announcement": "L'assistant d'assistance a ajouté un nouveau message",
+    "statusReady": "Assistant d'assistance prêt",
+    "requestFlow": {
+      "start": "Préparer une demande",
+      "serviceQuestion": "De quel service avez-vous besoin ?",
+      "serviceHint": "Vous pouvez en choisir plusieurs.",
+      "detailsQuestion": "De quoi parle votre projet ?",
+      "objectiveQuestion": "Quel est votre objectif principal ?",
+      "deadlineQuestion": "Avez-vous une échéance souhaitée ?",
+      "budgetQuestion": "Avez-vous une fourchette de budget (facultatif) ?",
+      "skip": "Passer cette question",
+      "summaryTitle": "Voici un résumé de votre demande",
+      "summaryIntro": "Relisez-le. Vous pouvez modifier une réponse, ou continuer vers le formulaire de demande et y modifier chaque champ.",
+      "serviceLabel": "Service",
+      "detailsLabel": "Détails du projet",
+      "objectiveLabel": "Objectif principal",
+      "deadlineLabel": "Échéance souhaitée",
+      "budgetLabel": "Fourchette de budget",
+      "continueToForm": "Continuer vers le formulaire de demande",
+      "restart": "Recommencer",
+      "missingService": "Choisissez au moins un service avant de continuer.",
+      "handoffNotice": "Vos informations pré-rempliront le formulaire. Vous le relisez et l'envoyez vous-même — rien n'est envoyé automatiquement."
+    }
+  },
+  "footer": {
+    "description": "King Business Studio crée des documents professionnels, un design graphique mémorable et des sites web modernes pour les entreprises et les particuliers.",
+    "servicesTitle": "Services",
+    "navigationTitle": "Explorer",
+    "contactTitle": "Contact",
+    "languageTitle": "Langue",
+    "legalTitle": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "rights": "Tous droits réservés.",
+    "supportTitle": "Assistance",
+    "notConfigured": "Les coordonnées sont en cours de finalisation. Merci d'utiliser le formulaire de contact pour l'instant."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de Confidentialité | King Business Studio",
+      "description": "Comment King Business Studio collecte, utilise et traite les informations envoyées via ce site."
+    },
+    "eyebrow": "MENTIONS LÉGALES",
+    "title": "Politique de confidentialité",
+    "updated": "Dernière mise à jour",
+    "sections": [
+      {
+        "title": "Qui nous sommes",
+        "paragraphs": [
+          "King Business Studio (\"KBS\", \"nous\", \"nous\") propose des services de documents professionnels, de design graphique et de développement web. Cette politique explique ce qu'il advient des informations que vous transmettez via ce site.",
+          "Le nom commercial, l'adresse du siège et l'adresse e-mail du responsable de traitement sont encore en cours de finalisation : ils seront ajoutés ici avant la mise en ligne du site. D'ici là, le formulaire de contact de la page Contact reste le moyen de nous joindre."
+        ]
+      },
+      {
+        "title": "Ce que nous collectons",
+        "paragraphs": [
+          "Lorsque vous envoyez le formulaire de demande de service ou de contact, nous collectons les informations que vous saisissez : votre nom, votre adresse e-mail, le pays indiqué, votre langue préférée et les informations sur le projet. Ces champs sont signalés sur le formulaire et seuls ceux marqués comme obligatoires sont requis.",
+          "Nous ne demandons jamais de mots de passe, de numéros de carte bancaire, de numéros d'identification nationale ou toute autre information personnelle sensible, et nous vous demandons de ne pas en inclure dans un message.",
+          "L'assistant d'assistance fonctionne entièrement dans votre navigateur. Vos messages de conversation sont conservés uniquement dans la mémoire de la page ouverte. Ils ne sont pas envoyés à un serveur, ils ne sont pas stockés dans une base de données et ils ne sont pas transmis à un fournisseur d'IA externe."
+        ]
+      },
+      {
+        "title": "Comment nous les utilisons",
+        "paragraphs": [
+          "Les informations que vous envoyez servent à examiner votre demande, à préparer un devis et un périmètre, et à vous répondre. Nous les utilisons à cette fin et à aucune autre.",
+          "Nous ne vendons pas vos informations et ne les utilisons pas à des fins publicitaires."
+        ]
+      },
+      {
+        "title": "Formspree",
+        "paragraphs": [
+          "Les deux formulaires sont transmis via Formspree, un service tiers de gestion de formulaires. Lorsque vous envoyez un formulaire, les informations saisies sont transmises à Formspree, qui les transmet à la boîte de réception KBS afin que nous puissions vous répondre. Formspree traite ces informations pour notre compte selon ses propres conditions de confidentialité.",
+          "Vous pouvez consulter la politique de confidentialité de Formspree sur formspree.io. Si vous préférez ne pas transmettre d'informations via un service tiers, indiquez-le dans votre message et nous organiserons un autre moyen de recevoir votre demande."
+        ]
+      },
+      {
+        "title": "Durée de conservation",
+        "paragraphs": [
+          "Les informations relatives à une demande sont conservées le temps nécessaire pour traiter votre demande et tenir un registre des échanges commerciaux. Une fois le projet terminé, nous ne conservons que ce qui est nécessaire aux obligations comptables et légales.",
+          "La durée exacte de conservation sera précisée ici dès que la politique d'archivage de l'entreprise sera finalisée."
+        ]
+      },
+      {
+        "title": "Vos choix",
+        "paragraphs": [
+          "Vous pouvez nous demander quelles informations nous détenons à votre sujet, demander leur correction ou leur suppression, via les coordonnées indiquées sur la page Contact. Vous pouvez également nous demander de cesser d'utiliser vos informations pour un suivi.",
+          "Vous pouvez effacer la conversation de l'assistant à tout moment via le bouton « Effacer la conversation » situé dans le panneau de chat."
+        ]
+      },
+      {
+        "title": "Cookies et mesure d'audience",
+        "paragraphs": [
+          "Ce site ne dépose pas de cookies publicitaires et n'utilise aucun traceur publicitaire tiers. Votre préférence de langue est enregistrée localement dans votre propre navigateur afin que le site retienne la langue que vous avez choisie."
+        ]
+      },
+      {
+        "title": "Sécurité",
+        "paragraphs": [
+          "Le site est servi en HTTPS en production et les formulaires sont transmis via une connexion chiffrée. Aucun système ne peut être garanti totalement sûr : évitez donc d'envoyer des informations que vous ne souhaiteriez pas voir divulguées."
+        ]
+      },
+      {
+        "title": "Modifications de cette politique",
+        "paragraphs": [
+          "Cette politique est mise à jour lorsque le fonctionnement du site évolue. La date « Dernière mise à jour » ci-dessus indique la révision la plus récente."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "meta": {
+      "title": "Conditions d'Utilisation | King Business Studio",
+      "description": "Les conditions qui s'appliquent lors de l'utilisation du site King Business Studio."
+    },
+    "eyebrow": "MENTIONS LÉGALES",
+    "title": "Conditions d'utilisation",
+    "updated": "Dernière mise à jour",
+    "sections": [
+      {
+        "title": "À propos de ces conditions",
+        "paragraphs": [
+          "Ces conditions s'appliquent à toute personne utilisant le site King Business Studio. En utilisant le site, vous les acceptez.",
+          "Le nom commercial, l'adresse du siège, la loi applicable et le ressort de compétence sont encore en cours de finalisation : ils seront complétés ici avant la mise en ligne du site."
+        ]
+      },
+      {
+        "title": "À quoi sert ce site",
+        "paragraphs": [
+          "Ce site présente les services et les travaux de King Business Studio, et propose des formulaires pour demander un service ou nous contacter. Nous pouvons modifier le contenu du site à tout moment."
+        ]
+      },
+      {
+        "title": "Aucune garantie",
+        "paragraphs": [
+          "Le contenu de ce site, y compris les descriptions de services et les projets présentés, est fourni à titre d'information générale. Sauf devis écrit émis pour un projet précis, rien sur ce site ne constitue une offre, un prix ou un engagement de résultat.",
+          "Nous ne garantissons ni l'emploi, ni l'investissement, ni un financement, ni un contrat, ni le référencement, ni le chiffre d'affaires, ni aucun résultat de performance particulier pour les travaux que nous produisons."
+        ]
+      },
+      {
+        "title": "Projets et devis",
+        "paragraphs": [
+          "Un projet ne démarre qu'une fois le périmètre, le prix et le délai convenus par écrit. Les montants indiqués dans les formulaires de demande correspondent aux catégories de budget discutées lors de l'établissement du devis : ce ne sont pas des prix fixes.",
+          "Les travaux présentés dans le portfolio comprennent des projets concept et démo réalisés par KBS pour démontrer ses compétences. Ils sont indiqués comme tels et ne sont pas présentés comme des missions clients."
+        ]
+      },
+      {
+        "title": "Vos contenus et votre comportement",
+        "paragraphs": [
+          "Vous restez propriétaire des contenus que vous nous transmettez. Vous confirmez avoir le droit de les envoyer et que cela ne porte pas atteinte aux droits d'autrui.",
+          "Vous acceptez de ne pas utiliser le site pour envoyer du contenu illicite, abusif ou nocif, ni de tenter de perturber le site ou d'y accéder sans autorisation."
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "paragraphs": [
+          "La conception, les textes, le code et l'identité visuelle de ce site appartiennent à King Business Studio sauf mention contraire. Vous pouvez consulter le site et imprimer des pages pour votre usage personnel. Toute reproduction à des fins commerciales est soumise à autorisation écrite.",
+          "La propriété des travaux réalisés pour un client est définie dans l'accord écrit du projet concerné."
+        ]
+      },
+      {
+        "title": "Services tiers",
+        "paragraphs": [
+          "Le site utilise Formspree pour transmettre les formulaires et Google Fonts pour fournir les polices. Leur utilisation est soumise à leurs propres conditions et politiques de confidentialité.",
+          "L'assistant d'assistance est un système fondé sur des règles qui répond à partir des informations publiées sur ce site. Ce n'est pas une personne et il n'utilise pas de modèle d'IA générative. Les informations qu'il fournit doivent être confirmées avant de vous y fier."
+        ]
+      },
+      {
+        "title": "Limitation de responsabilité",
+        "paragraphs": [
+          "Dans la limite permise par la loi, King Business Studio ne saurait être tenu responsable des pertes résultant de l'utilisation de ce site ou de la confiance accordée aux informations qui y sont publiées. Aucune disposition des présentes conditions n'exclut une responsabilité qui ne peut légalement être exclue."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Vos questions sur ces conditions peuvent être envoyées via le formulaire de contact. L'adresse e-mail officielle de l'entreprise sera ajoutée ici dès sa confirmation."
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "meta": {
+      "title": "Page introuvable | King Business Studio",
+      "description": "La page que vous cherchez est introuvable."
+    },
+    "title": "Page introuvable",
+    "description": "La page que vous cherchez n'existe pas, ou elle a été déplacée.",
+    "primaryCta": "Aller à la page d'accueil",
+    "secondaryCta": "Découvrir nos services",
+    "helpTitle": "Vous cherchez quelque chose de précis ?",
+    "helpText": "Parcourez nos services, consultez le portfolio, ou posez la question à l'assistant."
+  },
+  "breadcrumb": {
+    "label": "Fil d'Ariane",
+    "home": "Accueil"
+  }
+}

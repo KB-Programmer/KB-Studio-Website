@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="King Business Studio">
+  <defs>
+    <linearGradient id="kbsOg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B2545" />
+      <stop offset="100%" stop-color="#123B73" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#kbsOg)" />
+  <circle cx="1080" cy="90" r="220" fill="#3478F6" opacity="0.14" />
+  <circle cx="120" cy="560" r="180" fill="#3478F6" opacity="0.1" />
+
+  <g transform="translate(96 190)">
+    <rect width="96" height="96" rx="24" fill="#123B73" />
+    <path d="M33 23v50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" />
+    <path d="M64 23 33 48 64 73" stroke="#3478F6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <text x="96" y="360" fill="#FFFFFF" font-family="Manrope, Inter, system-ui, sans-serif" font-size="66" font-weight="800">
+    King Business Studio
+  </text>
+  <text x="96" y="420" fill="#9FC0F5" font-family="Manrope, Inter, system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="8">
+    KBS
+  </text>
+  <text x="96" y="490" fill="#FFFFFF" fill-opacity="0.82" font-family="Inter, system-ui, sans-serif" font-size="30">
+    Professional Work. Powerful Impressions.
+  </text>
+  <text x="96" y="540" fill="#FFFFFF" fill-opacity="0.6" font-family="Inter, system-ui, sans-serif" font-size="24">
+    Business Documents &#183; Graphic Design &#183; Web Development
+  </text>
+</svg>

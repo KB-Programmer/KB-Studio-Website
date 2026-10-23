@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Brand identity concept — illustrative placeholder">
+  <defs>
+    <linearGradient id="kbsBrandBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B2545" />
+      <stop offset="100%" stop-color="#3478F6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#kbsBrandBg)" />
+  <circle cx="80" cy="440" r="170" fill="#FFFFFF" opacity="0.06" />
+
+  <g transform="translate(250 80)">
+    <rect width="300" height="300" rx="18" fill="#FFFFFF" fill-opacity="0.95" />
+    <g transform="translate(94 72)">
+      <rect width="112" height="112" rx="26" fill="#123B73" />
+      <path d="M38 26v60" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" />
+      <path d="M82 26 38 56 82 86" stroke="#3478F6" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <rect x="60" y="212" width="180" height="12" rx="6" fill="#123B73" />
+    <rect x="80" y="238" width="140" height="8" rx="4" fill="#D9E2EF" />
+    <circle cx="94" cy="268" r="9" fill="#3478F6" />
+    <circle cx="122" cy="268" r="9" fill="#123B73" />
+    <circle cx="150" cy="268" r="9" fill="#D9E2EF" />
+  </g>
+
+  <text x="400" y="458" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" letter-spacing="5">
+    CONCEPT PROJECT
+  </text>
+</svg>

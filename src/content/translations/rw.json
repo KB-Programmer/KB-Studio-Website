@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "localeName": "Ikinyarwanda",
+    "siteTitle": "King Business Studio — Amanduku y'Ubucuruzi, Ugaragaza Ibinyabiziga n'Ubunyangamugayo b'Website",
+    "siteDescription": "King Business Studio (KBS) itanga amanduku y'ubucuruzi, ugaragaza ibinyabiziga byiza, n'websites nziza, ishushyushye kandi igaragara neza, ku bucuruzi n’abahereza, mu Rwanda no hanze."
+  },
+  "nav": {
+    "home": "Ahabanza",
+    "services": "Serivisi",
+    "portfolio": "Ibikoresho",
+    "about": "KBS byiza",
+    "support": "Ubufasha bw’abashobisha",
+    "contact": "Uhoyane",
+    "requestService": "Saba Serivisi",
+    "openMenu": "Fungura menu y’uhuza",
+    "closeMenu": "Funga menu y’uhuza",
+    "language": "Ururimi",
+    "languageSwitcher": "Hindura ururimi",
+    "skipToContent": "Simbuka k’ibiriwemo",
+    "primary": "Menu nyamukuru",
+    "footer": "Menu y’inyuma"
+  },
+  "common": {
+    "learnMore": "Reba Byinshi",
+    "requestThisService": "Saba Serivisi Iyi",
+    "viewAll": "Reba Byose",
+    "viewDetails": "Reba Ibisobanuro",
+    "viewProject": "Reba umushinga",
+    "backToPortfolio": "Subira ku bibikoresho",
+    "backToServices": "Subira ku serivisi",
+    "backToTop": "Subira hejuru",
+    "close": "Funga",
+    "copy": "Koporora",
+    "copied": "Byakoporowe kuri klipboard",
+    "copyFailed": "Koporora ntibyabaye — uhiteme ibanduku by’uboko.",
+    "clear": "Sukura",
+    "retry": "Ongera ugerageze",
+    "loading": "Biratangira…",
+    "send": "Ohereza",
+    "you": "Wowe",
+    "assistant": "Ubufasha",
+    "conceptProject": "Umushinga w'Igiho (Concept)",
+    "demoProject": "Umushinga wa Demo",
+    "realProject": "Umushinga w'Umukiriya",
+    "errorGeneric": "Hari ikitagenze neza. Ongera ugerageze.",
+    "notAvailable": "Ntabwo ari ho",
+    "optional": "Si byumweru",
+    "required": "Bisanzwe gukubwa",
+    "requiredField": "Uyu mwanya ukenewe.",
+    "yes": "Yego",
+    "no": "Nta",
+    "menu": "Menu",
+    "expand": "Gutandura",
+    "collapse": "Gufunga"
+  },
+  "home": {
+    "meta": {
+      "title": "King Business Studio — Umurongo w’Umwuga. Umugaragaje Mwiza.",
+      "description": "Kukira amanduku y’abahereza kugeza ku ugaragaza ibinyabiziga n’websites za kijyariji, King Business Studio ifasha guhindura ibitekerezo byawe ibimisemo by’ubucuruzi bisobanutuwe, mu Rwanda no hanze."
+    },
+    "hero": {
+      "eyebrow": "UMUFASHANYA WAWE MU UBUCURUZI N’UBUNYEKA",
+      "title": "Akazi k’umwuga. Umugaragaje Mwiza.",
+      "description": "Kukira amanduku y’abahereza kugeza ku ugaragaza ibinyabiziga n’websites za kijyariji, twafasha guhindura ibitekerezo byawe ibimisemo by’ubucuruzi bisobanutuwe.",
+      "primaryCta": "Saba Serivisi",
+      "secondaryCta": "Reba Ibikoresho Byacu",
+      "points": [
+        "Amanduku y’Ubucuruzi",
+        "Ugaragaza Ibinyabiziga",
+        "Ubunyangamugayo b’Website"
+      ]
+    },
+    "services": {
+      "eyebrow": "IBYO TUKORA",
+      "title": "Serivisi tatu, urwego rumwe rw’umwuga.",
+      "description": "Buri serivisi itangira n’ikintu kimwe: guteka ubumenyi ku byo ukenye byose mbere yo gutangira ubikora.",
+      "cta": "Reba serivisi zose"
+    },
+    "why": {
+      "eyebrow": "KIGANJU KO MUGENDA KBS",
+      "title": "Byobunduye, bisobanutuwe, kandi byerekana intego yawe.",
+      "description": "Tugira imigendo yoroshye n’ubwandu bwiza, kugira ngo ubwithe buri gihe umushinga wawe urimo.",
+      "items": [
+        {
+          "title": "Umurongo w’abahereza",
+          "description": "Buri gisanzwe kiratangira ku buryo bumwe bw’abahereza, ibari n’umwanduku, ugaragaza cyangwa website."
+        },
+        {
+          "title": "Umusanzwe usobanutuwe",
+          "description": "Tutangira ku kibazo gikenewe, hanyuma tuvuga inzira yoroshye kandi isobanutuwe."
+        },
+        {
+          "title": "Ubutumwa bwiza",
+          "description": "Tukubwira icyo kizakagurwa, icyo gisimbiye, n’icyo bigomba gukemwa."
+        },
+        {
+          "title": "Ubusabe bworoshye",
+          "description": "Ingero y’akazi, igiciro n’igihe bigaragaza nawe mbere yo gutangira, kugira ngo gahunda ishobora guhinduka."
+        },
+        {
+          "title": "Abakiriya bo mu Rwanda no hanze",
+          "description": "Tukorana n’abakiriya bari mu Rwanda no hanze, mu Cyangereza, Ikinyarwanda no Ifransa."
+        }
+      ]
+    },
+    "portfolio": {
+      "eyebrow": "IBIKORESHO BYATORANYIJWE",
+      "title": "Ibikoresho byatoranyijwe",
+      "description": "Igaragaza nk’ubunyangamugayo bw’akazi twakora. Buri mushinga bukandikwa neza kugira ngo ubimenye neza icyo ari.",
+      "cta": "Reba portfolio yose",
+      "conceptNotice": "Imishinga iri hasi ni igiho (concept) na demo byakozwe na KBS kugira ngo bigeze bigaragaza ubushakashatsi. Ntibwa mirimo y’abakiriya nyakuri."
+    },
+    "process": {
+      "eyebrow": "UKO BIGEREKANYE",
+      "title": "Amahazi atanu, nta gitangaro.",
+      "description": "Ingero y’akazi, igiciro n’igihe bigaragaza nawe mbere yo gutangira, kugira ngo ubimenye gese uko ugiye gukora.",
+      "steps": [
+        {
+          "title": "Shereka Igitekerezo Wowe",
+          "description": "Bwira serivisi ukeneye n’ibyo ushaka kugerageza."
+        },
+        {
+          "title": "Ganisira Ibibazo",
+          "description": "Tuganira ku byikoresho, ingero, abagenera b’umusanzwe n’ibiciro."
+        },
+        {
+          "title": "Emeza Ingero y’Akazi",
+          "description": "Ibikoresho, igiciro n’igihe bigaragaza kandi byemezwa mu buryo bwanditswe."
+        },
+        {
+          "title": "Akora Umuti",
+          "description": "Akazi gahuruka, kandi ari wowe ukagenzura."
+        },
+        {
+          "title": "Reba Uhando",
+          "description": "Idosi za nyuma n’amahwirizi yoherejwa, byiteguye gukoreshwa."
+        }
+      ]
+    },
+    "support": {
+      "eyebrow": "UBUFASHA BW’ABASHOBISHA",
+      "title": "Umufasha wa KBS w’Abashobisha",
+      "tagline": "Umugisha wa Serivisi za KBS.",
+      "description": "Ufite ikibazo ku serivisi zacu? Ubufasha bwacu bw’abashobisha bushobora kugufasha kugenzura serivisi za KBS, kubona ibisobanuro ku ibibazo bisanzwe, no gutegura ubusabe bw’akazi.",
+      "cta": "Vugana n’Ubufasha wa KBS",
+      "disclosure": "Uyu ni umufasha w’ubuzike ukoresha amakuru yemewe y’website ya KBS, ntabwo ari umuntu cyangwa AI generative.",
+      "points": [
+        "Sobanura ibicece bitatu bya serivisi",
+        "Igisubizo ku ibibazo bisanzwe ku igiciro, igihe n’abuso",
+        "Agufasha gutegura ubusabe bw’akazi mbere yo kohereza"
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "IBYO ABAKIRIYA BAVUGA",
+      "title": "Icyo abakiriya bavuga",
+      "description": "Tugaragaza igitekerezo ry’abakiriya gusa ryaba ryarabarenze kandi ryemewe gukwihishwa.",
+      "emptyTitle": "Wariyiranye na KBS?",
+      "emptyText": "Tugaragaza igitekerezo ry’abakiriya aha nyuma yo kuyareba no kwakemera gukwihishwa. Kuri ubu, bwira ibyo umushinga wawe ari.",
+      "emptyCta": "Saba Serivisi"
+    },
+    "social": {
+      "eyebrow": "MUKORAHO",
+      "title": "Shakisha KBS kuri interineti",
+      "description": "Mirongo yacu y’umusanzwe yashobanya igaragara aha igihe yemejwe."
+    },
+    "finalCta": {
+      "title": "Witeguye Gutangira Umushinga Mucuruzi?",
+      "description": "Bwira ibyo ukeneye, tazakubona ibisobanuro, twemaze ingero y’akazi, tandi twategura igiciro.",
+      "button": "Saba Serivisi"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Serivisi — Amanduku y’Ubucuruzi, Ugaragaza Ibinyabiziga n’Ubunyangamugayo b’Website | KBS",
+      "description": "Reba serivisi nyamukuru za King Business Studio: amanduku y’abahereza, ugaragaza ibinyabiziga byiza, n’websites ishushyushye kandi igaragara neza."
+    },
+    "eyebrow": "SERIVISI",
+    "title": "Byose ukeneye kugira ngo uwagaragaze neza ubucuruzi bwawe.",
+    "description": "Serivisi tatu zitarataye, buri imwe ikorwa ubuzimumizi bumwe. Hitamo iyo ibugenewe ibyo ukeneye, cyangwa Saba serivisi zigeranye.",
+    "chooseCta": "Saba Serivisi Iyi",
+    "allServicesTitle": "Serivisi zose",
+    "processTitle": "Uko umushinga ukora",
+    "processDescription": "Amahazi atanu gusa akora ku buri serivisi, kugira ngo ubimenye gese icyo ikurikira.",
+    "detailTitle": "Ibisobanuro bya serivisi"
+  },
+  "serviceDetail": {
+    "meta": {
+      "titleSuffix": "Serivisi | King Business Studio"
+    },
+    "deliverablesTitle": "Ibyo twashobora gutanga",
+    "suitableForTitle": "Iyi serivisi igenewe aba",
+    "provideTitle": "Ibyo wohereza",
+    "outcomesTitle": "Ibyo ubiteze kugira",
+    "pricingTitle": "Igiciro",
+    "pricingBody": "Igiciro gisobanutuwe hakurikijwe ingero y’akazi. Ikigiciro giteranyijwe uburyo akazi buzakora, ni byo rero ohereza ubusabe hamwe n’ibyo ukeneye, tuzabyikora kandi tukategura igiciro.",
+    "relatedProjectsTitle": "Imishinga ifitanye isano",
+    "relatedFaqsTitle": "Ibibazo bishingiye",
+    "otherServicesTitle": "Reba izindi serivisi",
+    "ctaTitle": "Witeguye gutangira?",
+    "ctaBody": "Tanga ibisobanuro by’ibyo ukeneye tuzagukora ingero y’akazi n’igiciro.",
+    "ctaButton": "Saba Serivisi Iyi",
+    "noRelatedProjects": "Nta mushinga uchapeye kuri iyi serivisi uyetse. Igiho cy’uyu mushinga kirateganywa."
+  },
+  "portfolio": {
+    "meta": {
+      "title": "Portfolio — Akazi Toratoranyijwe | King Business Studio",
+      "description": "Reba akazi toratoranyijwe na King Business Studio muri amanduku y’ubucuruzi, ugaragaza ibinyabiziga n’ubunyangamugayo b’website."
+    },
+    "eyebrow": "PORTFOLIO",
+    "title": "Akazi toratoranyijwe",
+    "description": "Imishinga y’igiho (concept) na demo yakozwe na KBS kugira ngo bigeze bigaragaza ubushakashatsi, bukandikwa neza kugira ngo ubimenye gese icyo ubona.",
+    "filterAll": "Imishinga Yose",
+    "filterDocuments": "Amanduku y’Ubucuruzi",
+    "filterDesign": "Ugaragaza Ibinyabiziga",
+    "filterWeb": "Ubunyangamugayo b’Website",
+    "filterLabel": "Shunganya imishinga hakurikijwe ikiganda",
+    "emptyTitle": "Nta mushinga muri iki gikanda",
+    "emptyText": "Imishinga igaragara aha igihe imishinga imaze kandi yemezwe gukwihishwa.",
+    "objectivesTitle": "Intego",
+    "outcomesTitle": "Ibyo ikigisemerezo gisanzwe kirimo",
+    "toolsTitle": "Ibikoresho n’uburyo",
+    "galleryTitle": "Igaragaza",
+    "liveSite": "Sura website",
+    "sourceCode": "Reba code",
+    "categoryLabel": "Igikanda",
+    "statusLabel": "Imimerere",
+    "yearLabel": "Umwaka",
+    "clientLabel": "Umukiriya",
+    "notPublished": "Ntabwo yashyirwanye",
+    "shareTitle": "Saba umushinga",
+    "copyLink": "Koporora link",
+    "shareCopied": "Link yakoporowe kuri klipboard.",
+    "relatedProjectsTitle": "Izindi mishinga"
+  },
+  "projectDetail": {
+    "notFoundTitle": "Umushinga ntubonekanye",
+    "notFoundText": "Umushinga ushaka ntubonekanye, cyangwa ntabwo ukiriho gukwihishwa."
+  },
+  "about": {
+    "meta": {
+      "title": "KBS Byiza — Umufasha w’abahereza ku Gitekerezo Gikuru",
+      "description": "King Business Studio ni ikigo gikora amanduku y’abahereza, ugaragaza ibinyabiziga byiza, n’websites za kijyariji."
+    },
+    "eyebrow": "KBS BYIZA",
+    "title": "Umufasha w’abahereza ku Gitekerezo Gikuru.",
+    "lead": "King Business Studio ifasha abucuruzi n’abahereza kugaragaza akazi kabo neza — hifashishwe amanduku, ugaragaza n’websites zifite umurongo w’abahereza, bikaba zinyuzwe kugira ngo bikoreshwe.",
+    "aboutTitle": "KBS byiza",
+    "aboutText": "King Business Studio (KBS) ni ikigo gikora mu bicece bitatu: amanduku y’ubucuruzi, ugaragaza ibinyabiziga, n’ubunyangamugayo b’website. Akazi gahinga ku gicece kimwe — CV cyangwa logo — kugeza ku marwi y’ikigo, ibikoresho by’igihano n’websites zose.\n\nUburyo bwo kukora ni bwose. Twumva icyo ikigo gishaka kugerageza, twemera ingero y’akazi isobanutuwe, hanyuma dukora akazi gato. Nta byigeze bishyikirizwa ko byarangiye mbere yo kugenzurwa no kwemeza ingero.",
+    "missionTitle": "Intego",
+    "missionText": "Kutanga umusanzwe umwuga, ubunyangamugayo n’ubugarakari butuma abakiriya bacunguruka bagakura.",
+    "visionTitle": "Ihameko",
+    "visionText": "Kuba umufasha wizewe mu maso y’ubucuruzi n’ubunyangamugayo mu Rwanda no hanze.",
+    "valuesTitle": "Imirimo yacu",
+    "values": [
+      {
+        "title": "Ububigonza",
+        "description": "Akazi kafite ubutumwa, gasobanutuwe kandi kagashobora kwizigera."
+      },
+      {
+        "title": "Ubobunduye",
+        "description": "Ububiko busobanutuwe ku byo kizakagurwa, icyo bigomba gukaba, n’icyo birasaba gukemwa."
+      },
+      {
+        "title": "Umusanzwe",
+        "description": "Umusanzwe usubiza ikibazo gikennewe ariko ntabwo ushinzwe amakumukura."
+      },
+      {
+        "title": "Ubugarakari",
+        "description": "Ibyo hitamo byishyushye abagenera b’umusanzwe, ariko ntabwo bishyushwe kubwa ibitaru."
+      },
+      {
+        "title": "Kwaha",
+        "description": "Igihe gikweliye igitsa, ibuzibwa ryiza, no kwaha igihe cyawe."
+      }
+    ],
+    "approachTitle": "Uko dukora",
+    "approachText": "Buri mushinga ufura n’ikiganiro urangira ku kunyereza gusa. Muri hagati, ingero y’akazi igaragara kugira ngo ibyemezwe bishimishije.",
+    "approachSteps": [
+      "Tumva mbere yo gutegura icyo icy",
+      "Tugaragaza amahitamo mu ndimi zoroshye",
+      "Twemera ingero y’akazi, igiciro n’igihe mu buryo bwanditswe",
+      "Tugaragaza akazi gakisimye kugira ngo nta gisanzwe kiba kigatangaje",
+      "Tuhereza idosi n’amahwirizi wese ukashobora gukoreshwa"
+    ],
+    "servicesTitle": "Ibyo dukora",
+    "servicesText": "Serivisi tatu, zirandukanwa byose ku ipaji ya serivisi.",
+    "ctaTitle": "Ufite umushinga mu mutima?",
+    "ctaText": "Bwira icyo ushaka kugerageza, tuzabyibora ibisobanuro byawe.",
+    "ctaButton": "Saba Serivisi",
+    "draftNotice": "Aya ntego n’ihameko ni imyaka yo kunoza, kandi birashobora guhindurwa ibihoranye uko ukeneye."
+  },
+  "faq": {
+    "meta": {
+      "title": "Ibibazo Bishingiye | King Business Studio",
+      "description": "Ibisobanuro ku serivisi za KBS, igiciro, igihe, ubuso, indimi, ubwibone n’uburyo bwo gusaba serivisi."
+    },
+    "eyebrow": "IBIBAZO BISHINGIYE",
+    "title": "Ibibazo bishingiye",
+    "description": "Ibisobanuro bisobanutuwe ku ibibazo twabajijwe cyane. Niba ikibazo cyawe kitari kuri kuri, kikohereza mu ifashiko ry’uhoyane.",
+    "filterAll": "Byose",
+    "categoryGeneral": "Byose",
+    "categoryDocuments": "Amanduku y’Ubucuruzi",
+    "categoryDesign": "Ugaragaza Ibinyabiziga",
+    "categoryWeb": "Ubunyangamugayo b’Website",
+    "categoryPricing": "Igiciro n’igihe",
+    "categoryProcess": "Umugendo",
+    "categoryPrivacy": "Ubwibone",
+    "filterLabel": "Shunganya ibibazo hakurikijwe igikanda",
+    "stillTitle": "Ufite ikibazo cyakibazo?",
+    "stillText": "Kohereza mu itsinda ryacu, uzabagira igisobanuro gisobanutuwe.",
+    "stillCta": "Vugana na KBS",
+    "supportTitle": "Cyangwa nkaba byibaza umufasha",
+    "supportText": "Ubufasha wa KBS w’abashobisha igisubizo ku mibazo isanzwe mu buryo bwa none, ukoresha gusa amakuru ava kuri iyi website.",
+    "supportCta": "Vugana n’Ubufasha wa KBS"
+  },
+  "contact": {
+    "meta": {
+      "title": "Vugana na King Business Studio",
+      "description": "Vugana na King Business Studio ufite ikibazo, igitekerezo cyangwa umushinga ushaka gusaba."
+    },
+    "eyebrow": "UHOYANE",
+    "title": "Tuganira ku mushinga wawe.",
+    "description": "Koresha ifashiko iri hasi, itsinda ryacu rigakubita. Niba ikibazo cyawe ni ku serivisi zacu, ubufasha bw’abashobisha bushobora kukubisiga.",
+    "formTitle": "Ohereza ubutumwa",
+      "responseNote": "Uyu ifashiko gishyikirizwa ku itsinda rya KBS ubwawe. Ndabwiriza kwinjiza amakuru asanzwe agatandukana n’ubukene bw’umwuka.",
+    "detailsTitle": "Imbaraga",
+    "detailsText": "Imbaraga zemewe zigaragara aha igihe yemejwe n’ikigo.",
+    "noDetailsTitle": "Imbaraga ziri kuzunguruka",
+    "noDetailsText": "Email, telefone n’aho uri byemewe ntabwo bitarashyirwa ho. Inzira y’ihuta kurikira KBS ubu ni ifashiko kuri iyi paji cyangwa ifashiko rya serivisi.",
+    "socialTitle": "Umusanzwe w’uburasobe",
+    "socialText": "Mirongo yemewe y’umusanzwe wacu igaragara aha igihe yemejwe.",
+    "noSocialTitle": "Mirongo y’uburasobe iri kuzunguruka",
+    "noSocialText": "Tutarashyira mirongo y’uburasobe kugeza igihe yemejwe.",
+    "supportTitle": "Ushobora gukura mu buryo bwose?",
+    "supportText": "Ubufasha wa KBS w’abashobisha ufunda serivisi zacu, igiciro, igihe n’uburyo bwo gusaba.",
+    "supportCta": "Vugana n’Ubufasha wa KBS"
+  },
+  "requestService": {
+    "meta": {
+      "title": "Saba Serivisi | King Business Studio",
+      "description": "Bwira King Business Studio ibyo ukeneye, tuzabyibora ibisobanuro, twemaze ingero y’akazi kandi twategura igiciro."
+    },
+    "eyebrow": "SABA SERIVISI",
+    "title": "Bwira ibyo ukeneye.",
+    "description": "Tanga ibisobanuro by’umushinga wawe. Tuzabyibora, twemaze ingero y’akazi nawe kandi twategura igiciro mbere yo gutangira akazi.",
+    "formTitle": "Ubusabe bw’akazi",
+    "handoffTitle": "Inyandiko y’umufasha wawe irateguwe",
+    "handoffText": "Twuzuye ifashiko rifite ibisobanuro watanzwe umufasha wa KBS. Reba kandi uhindure buri mwanya mbere yo kohereza.",
+    "handoffDismiss": "Saba ubusabe bushya busanzwe",
+    "assistTitle": "Ntabwo uriyiziye icyo kwandika?",
+    "assistText": "Ubufasha wa KBS w’abashobisha ashobora kukubaza ibibazo bike no gutegura inyandiko ushobora kubibora.",
+    "assistCta": "Tegura ubusabe hifashishwa umufasha",
+    "responseNote": "Tusasisha gusa amakuru akenewe kugira ngo tubibore ubusabe bwawe. Kohereza ifashiko ntibutangira akazi — twemera ingero n’igiciro nawe mbere."
+  },
+  "forms": {
+    "fields": {
+      "fullName": "Amazina yombi",
+      "email": "Imbuto ya email",
+      "country": "Igihugu",
+      "preferredLanguage": "Ururimi ukeneye",
+      "serviceCategory": "Igikanda cya serivisi",
+      "projectTitle": "Umutitiriro w’umushinga",
+      "projectDetails": "Ibisobanuro by’umushinga",
+      "budgetRange": "Igiciro ushobora kwishyura",
+      "desiredDeadline": "Igitihe ushaka kugira",
+      "preferredContactMethod": "Uburyo bwohereza ubutumwa ukeneye",
+      "websiteUrl": "Link ya website cyangwa portfolio",
+      "subject": "Umutitiriro",
+      "message": "Ubutumwa"
+    },
+    "placeholders": {
+      "fullName": "Amazina yombi yawe",
+      "email": "wowe@ikigo.com",
+      "country": "urugero: Rwanda",
+      "projectTitle": "Umutitiriro mshort w’umushinga wawe",
+      "projectDetails": "Ni iki ukeneye, byaba ibiki, kandi byashobora gukora iki?",
+      "websiteUrl": "https://",
+      "subject": "Ubutumwa bwawe bufitanye iki?",
+      "message": "Andika ubutumwa bwawe hano"
+    },
+    "hints": {
+      "projectDetails": "Ibyo umeze mukuru usobanuturwe, nkuryo igisubizo kizaba cyiza cyane.",
+      "budgetRange": "Si byumweru. Igiceguro gishobora gufasha igiciro gikwiye.",
+      "desiredDeadline": "Si byumweru. Bwira igihe ushaka kugirira.",
+      "websiteUrl": "Si byumweru. Byakunda niba hari akazi kawe kuri interineti.",
+      "privacyConsent": "Bisanzwe gukubwa. Twakoresha amakuru yawe gusa kugira ngo tubibore kandi gusubiza ubu busabe.",
+      "country": "Bisanzwe gukubwa. Byatugera ngo tubisubire mu masaha n’ururimi byose bikwiye."
+    },
+    "options": {
+      "budgetRanges": [
+        "Muri $200",
+        "$200 – $500",
+        "$500 – $1,500",
+        "$1,500 – $5,000",
+        "Birenze $5,000",
+        "Sinabyibona"
+      ],
+      "contactMethods": [
+        "Email",
+        "Telefoni",
+        "WhatsApp",
+        "Byose"
+      ],
+      "subjects": [
+        "Ubusabe bw’akazi busha",
+        "Ikibazo ku serivisi zawe",
+        "Kurikira ubusabe bwashize",
+        "Ibindi"
+      ],
+      "languages": [
+        "Icyangereza",
+        "Ikinyarwanda",
+        "Ifransa"
+      ]
+    },
+    "validation": {
+      "required": "Uyu mwanya ukenewe.",
+      "emailInvalid": "Nyamaza imbuto ya email yemewe, urugero nk’umugenge: umuganga@example.com.",
+      "urlInvalid": "Nyamaza url yose igatangira na https://.",
+      "consentRequired": "Nyamaza wemeza ko wabisanye kandi wakiriye politiki y’ubwibone.",
+      "termsInvalid": "Nyamaza uhiteme ibiciro byagaragajwe kandi ugerageze.",
+      "selectService": "Nyamaza uhiteme igikanda kimwe cyangwa nyinshi."
+    },
+    "states": {
+      "submitting": "Kohereza…",
+      "successTitle": "Ubusabe bwakiriwe",
+      "successBody": "Ubutumwa bwawe bwakiriwe n’urugero w’ifashiko. Itsinda rya KBS rizareba ibisobanuro rikagisubiza.",
+      "successContactBody": "Ubutumwa bwawe bwakiriwe n’urugero w’ifashiko. Itsinda rya KBS rizareba ibikoresho rikagisubiza.",
+      "errorTitle": "Ubutumwa bwawe ntibwakoherewe",
+      "errorBody": "Urugero w’ifashiko nturaravze ikiyoherejwe. Reba ibisobanuro hanyuma ugerageze.",
+      "networkTitle": "Ikibazo cya interineti",
+      "networkBody": "Tutarashoboka kugera ku rugero rw’ifashiko. Amakuru yawe asigaye aha — reba interineti wohere ugerageze.",
+      "notConfiguredTitle": "Ubusabe bw’online ntubwaho bwikora",
+      "notConfiguredBody": "Ifashiko iki ntihujwe n’aho gikora, ariko na byo ntibyakoherewe. Nyamaza vugana na KBS ukoreshe uburyo iri ku ipaji ya Uhoyane kuri ubu.",
+      "duplicateBlocked": "Ubusabe bwawe buri koherezwa. Tegereza gato."
+    },
+    "submit": "Ohereza ubusabe",
+    "submitContact": "Ohereza ubutumwa",
+    "requiredLegend": "Agasaba",
+    "optionalLegend": "Si byumweru"
+  },
+  "support": {
+    "launcherLabel": "Vugana n’Ubufasha wa KBS",
+    "title": "Umufasha wa KBS w’Abashobisha",
+    "tagline": "Umugisha wa Serivisi za KBS.",
+    "open": "Fungura ikiganiro",
+    "close": "Funga ikiganiro",
+    "placeholder": "Baza ku serivisi, igiciro, igihe…",
+    "send": "Ohereza ubutumwa",
+    "quickActionsTitle": "Ibikororo byihutire",
+    "followUpsTitle": "Unashobora gukubita iki",
+    "copyAnswer": "Koporora igisubizo",
+    "clearConversation": "Sukura ikiganiro",
+    "clearConfirm": "Urukura wose ikiganiro?",
+    "clearConfirmYes": "Yego, sukura",
+    "clearConfirmNo": "Gira",
+    "contactCta": "Vugana na KBS",
+    "requestCta": "Saba Serivisi",
+    "disclosureLabel": "Ubufasha bw’ubuzike",
+    "assistantNature": "Nta muntu w’umugabo, kandi ntacyakoresha AI generative. Byose avuga bikarukirizwa mu byanditse by’urubuga rwa KBS, bityo birakangurira byose mbere yo gukoresha.",
+    "privacyLabel": "Ubwibone",
+    "retry": "Sura ubundi",
+    "thinking": "Ubufasha wa KBS nirandika…",
+    "newMessage": "Ubutumwa bw’ubufasha mushya",
+    "assistantName": "Ubufasha wa KBS",
+    "visitorName": "Wowe",
+    "announcement": "Ubufasha bw’abashobisha bwabyongereye ubutumwa",
+    "statusReady": "Ubufasha wa KBS bwategereye",
+    "requestFlow": {
+      "start": "Tegura ubusabe",
+      "serviceQuestion": "Ni ubuhe serivisi ukeneye?",
+      "serviceHint": "USHobora guhitamo nyinshi.",
+      "detailsQuestion": "Umushinga wawe ni iki?",
+      "objectiveQuestion": "Ni iki intego nyamukuru?",
+      "deadlineQuestion": "Hari igitihe ushaka kugira?",
+      "budgetQuestion": "Hari igiciro ushobora kwishyura (si byumweru)?",
+      "skip": "Simbuka iki kibazo",
+      "summaryTitle": "Hano ni inyandiko y’ubusabe bwawe",
+      "summaryIntro": "Reba yo. Ushobora guhindura igisubizo cyanyu, cyangwa ugera ku ifashiko rya serivisi wowe ukayihindure mu mwanya wose.",
+      "serviceLabel": "Serivisi",
+      "detailsLabel": "Ibisobanuro by’umushinga",
+      "objectiveLabel": "Intego nyamukuru",
+      "deadlineLabel": "Igitihe ushaka kugira",
+      "budgetLabel": "Igiciro ushobora kwishyura",
+      "continueToForm": "Komeza ku ifashiko rya serivisi",
+      "restart": "Tangira again",
+      "missingService": "Nyamaza hitamo serivisi imwe mbere yo gukomeza.",
+      "handoffNotice": "Amakuru yawe azakuzura ifashiko. Wowe ni wowe uzareba kandi uzohereza — nta byakoherezwa by’ubuzike."
+    }
+  },
+  "footer": {
+    "description": "King Business Studio ikora amanduku y’ubucuruzi, ugaragaza ibinyabiziga byiza, n’websites za kijyariji ku bucuruzi n’abahereza.",
+    "servicesTitle": "Serivisi",
+    "navigationTitle": "Sura",
+    "contactTitle": "Uhoyane",
+    "languageTitle": "Ururimi",
+    "legalTitle": "Amategeko",
+    "privacyPolicy": "Politiki y’Ibinyamakuru",
+    "terms": "Amategeko yo Gukoresha",
+    "rights": "Amahoro yose arebwa.",
+    "supportTitle": "Ubufasha",
+    "notConfigured": "Imbaraga ziri kuzunguruka. Nyamaza ukoreshe ifashiko ry’uhoyane kuri ubu."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politiki y’Ibinyamakuru | King Business Studio",
+      "description": "Uko King Business Studio ikusanya, ikoresha n icyo ituma amakuru ohereza kuri iyi website."
+    },
+    "eyebrow": "AMATEGEKO",
+    "title": "Politiki y’Ibinyamakuru",
+    "updated": "Byahinduwe",
+    "sections": [
+      {
+        "title": "Turi iki",
+        "paragraphs": [
+          "King Business Studio (\"KBS\", \"turi\", \"twe\") itanga serivisi z’amanduku y’ubucuruzi, ugaragaza ibinyabiziga n’ubunyangamugayo b’website. Uyu mwanduku usobanura icyo biri no amakuru ohereza kuri iyi website.",
+          "Izina ry’ikigo, address n’email y’umuyobozi w’amakuru bitarasohotseho kuba byuzuye, kandi byongerwa mbere yo gushyirwa website ku murongo. Kuri ubu, ifashiko ry’uhoyane iri ku ipaji ya Uhoyane ni inzira yo kuguhamagara."
+        ]
+      },
+      {
+        "title": "Icyo dusanya",
+        "paragraphs": [
+          "Uruhererekane n’isunika ry’amanduku y’ubucuruzi cyangwa ry’uhoyane, dusanya amakuru ushyizemo: amazina yawe, imbuto ya email, igihugu watanzeho, ururimi ukeneye, n’ibisobanuro by’umushinga watanze. Ibi byose bisobanuturwa ku ifashiko, kandi gusa ibyo bisanzwe gukubwa ni byo bisanzwe.",
+          "Tutabaza ibibu passwords, ibicuruzwa by’karte, indangamuntu cyangwa ibindi by’umubyinya tw’umuntu, kandi twabikira ngo ntube mu butumwa.",
+          "Ubufasha bw’abashobisha bukora entirely muri browser wawe. Ubutumwa bw’ikiganiro bibikwa gusa mu ibango rw’urupapuro rw’igifungo. Ntibwohera seriveri, ntibwikurikizwa muri base de données, kandi ntibwohera serivisi yo hanze y’AI."
+        ]
+      },
+      {
+        "title": "Uko dukoresha",
+        "paragraphs": [
+          "Amakuru uyohereza akoreshwa kugira ngo tubibore ubusabe, twategure igiciro n’ingero y’akazi, kandi tugusubiza. Tumukoresha kuri icyo gikora gusa.",
+          "Tutagura amakuru yawe, kandi ntutukoresha kuri ibikoresho by’ubucuruzi."
+        ]
+      },
+      {
+        "title": "Formspree",
+        "paragraphs": [
+          "Ifashiko zombi zoherezwa hakoreshwa Formspree, serivisi yo gucunga amafashiko. Urimo kohereza ifashiko, amakuru wanditse areba kuri Formspree, ibafasura mu inbox ya KBS kugira ngo tugusubize. Formspree ikora ibi ku rwacu hakurikijye amategeko yayo yo ibinyamakuru.",
+          "Ushobora gusoma politiki y’ibinyamakuru ya Formspree kuri formspree.io. Niba ntushaka ko amakuru agabana serivisi y’umwuka, twabwire iki mu butumwa kandi tuzagufata uburyo bunindi bwo kwakira."
+        ]
+      },
+      {
+        "title": "Igihe twabicura",
+        "paragraphs": [
+          "Amakuru y’ibibazo abikurwa igihe ukenewe kugira ngo tubibore ubusabe wowe kandi twiyungeze mu by’ucuruzi. Umushinga uhumaye, twabika gusa ibyo bikenewe kubirwa ibindi n’amategeko.",
+          "Igihe cy’icyo twabicura cyasigaye gikemezwa, kandi cyakubikwa aha igihe politiki y’ubucuruzi yemezwe."
+        ]
+      },
+      {
+        "title": "Amahoro yawe",
+        "paragraphs": [
+          "Ushobora kutubaza amakuru mfite, gusaba guhindurwa, cyangwa gusaba yoherejwe, ukoresha imbaraga iri ku ipaji ya Uhoyane. Ushobora no kutubaka kugira ngo tugende gukoresha amakuru yawe kugira ngo tugukomeze.",
+          "Ushobora gufurika ikiganiro cya umufasha wa KBS igihe icyo ukoresha ikiganza cya \"Sukura ikiganiro\" kiri mu kafu ya ikiganiro."
+        ]
+      },
+      {
+        "title": "Cookies na analytics",
+        "paragraphs": [
+          "Iyi website ntibaika cookies z’ubucuruzi kandi ntikoresha trackers bw’ubucuruzi bw’umwuka. Uruhumu rwawe rururimi rukurikizwa mu browser yawe kugira ngo website ibuke ururimi watoranyijwe."
+        ]
+      },
+      {
+        "title": "Umutekano",
+        "paragraphs": [
+          "Website ishyikirizwa kuri HTTPS mu iterambere ry’umusanzwe, kandi ifashiko zoherezwa kuri ubuvuga bw’umurongo w’ubwirinzi. Nta gahanga ko umuryango w’imutekano ugomba kuba uhumye rwose, ni byo rero ntukoze amakuru ushaka ntiyishyikizwe."
+        ]
+      },
+      {
+        "title": "Ihindura",
+        "paragraphs": [
+          "Uyu mwanduku uhindurwa igihe uburyo website ukora ahinduka. Igitihe cy’\"Byahinduwe\" cyirangiye hejuru cyerekana ihindura ry’iya mberi."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "meta": {
+      "title": "Amategeko yo Gukoresha | King Business Studio",
+      "description": "Amategeko akoreshwa igihe ukoresha website ya King Business Studio."
+    },
+    "eyebrow": "AMATEGEKO",
+    "title": "Amategeko yo Gukoresha",
+    "updated": "Byahinduwe",
+    "sections": [
+      {
+        "title": "Iyi mategeko",
+        "paragraphs": [
+          "Iyi mategeko akoreshwa kuri bose bakoresha website ya King Business Studio. Ukoresha website ukemera iyi mategeko.",
+          "Izina ry’ikigo, address, amategeko y’igihugu n’ubucamanza bitarasohotseho kuba byuzuye, kandi byongerwa hano mbere yo gushyirwa website ku murongo."
+        ]
+      },
+      {
+        "title": "Iyi website ikora iki",
+        "paragraphs": [
+          "Iyi website yerekana serivisi n’akazi bya King Business Studio, kandi itanga ifashiko yo gusaba serivisi cyangwa kuguhamagara. Twashobora guhindura ibiri ku website igihe icyo gishoboka."
+        ]
+      },
+      {
+        "title": "Nta bwizezi",
+        "paragraphs": [
+          "Ibirimo bya website, harugamo ibisobanuro bya serivisi n’imishinga yerekana, byatanzwe kugira ngo umusanzwe w’ubumenyi. Nta byigeze bigaragaza ibintu byose nk’ibicuruzwa, igiciro cyangwa is promised ishimishwe ku mushingu runaka rw’intego.",
+          "Tutiyemeze akazi, ishoramari, funding, amasezerano, imirongo y’isearch, inyungu cyangwa ikigero gikomatanyije cy’uburyo buhinguriye ku byacu bishyushwe."
+        ]
+      },
+      {
+        "title": "Imishinga n’amagamuru",
+        "paragraphs": [
+          "Umushinga usizeye gusa amaze ingero y’akazi, igiciro n’igihe bigaragaza mu buryo bwanditswe. Igiciro cyerekanwa ku ifashiko ni icyigero cy’ibiciro biganira, ntacyo bigiciro bishingiye.",
+          "Akazi kagaragara muri portfolio ni imishinga y’igiho (concept) na demo yakozwe na KBS kugira ngo bigeze bigaragaza ubushakashatsi. Byakandikwa koko kandi ntibyerekanwa nk’akazi bw’abakiriya."
+        ]
+      },
+      {
+        "title": "Ibyo biriweho n’imyitwarire",
+        "paragraphs": [
+          "Uruhererekane rw’ibyo ukohereza ni rwowe. Uremeza ko ufite uburenganzira bwo kohereza ibyo, kandi ko byo ntibutega uburenganzira bw’undi muntu.",
+          "Uremyeze gukoresha website kohereza ibintu byangoeje igihano cyangwa gukanguranya, no gigerageza gushobora site cyangwa kwinjira aho witarugirijwe."
+        ]
+      },
+      {
+        "title": "Ubutimwa bw’umubiri",
+        "paragraphs": [
+          "Igaragaza, ibinyandiko, code n’amarangamutuma ya website ni bya King Business Studio niba ntabwo byarandikwe ko ari ibindi. Ushobora kureba website no gushyiramo ku mpapuro kugira ngo wibuze. Ntabwo ari ngombwa gukoporora byakoporowe k’ubucuruzi ngo ubibere ukurenganzira bwanditswe.",
+          "Nyir’ubugimari bw’akazi yakozwe ku mukiriya bushyirizwa mu masezerano y’umushinga."
+        ]
+      },
+      {
+        "title": "Serivisi z’abandi",
+        "paragraphs": [
+          "Website ikoresha Formspree kwohereza ifashiko na Google Fonts kugirira imyandiko. Ibikoreshwa byabo birashobora gukoreshwa hakurikijwe amategeko yabo n’amategeko y’ubwibone.",
+          "Ubufasha bw’abashobisha ni gahinga ku macye y'itegeko asanzwe, bukayikora amakuru ava kuri iyi website. Ntabwo ari umuntu kandi ntibukoresha AI generative. Amakuru akabyatanga ugomba kuzakemezwa mbere yo kurikira."
+        ]
+      },
+      {
+        "title": "Guhindura igitangiro",
+        "paragraphs": [
+          "Hafi gukoresha website, King Business Studio ntibashobora kubazwa igifungo mu buryo buvuganye mu miterere y’uburenganzira. Nta kuri iyi mategeko bibuzwa ibintu byakemezweho n’amategeko."
+        ]
+      },
+      {
+        "title": "Uhoyane",
+        "paragraphs": [
+          "Ibibazo ku mategeko ni byohereza mu ifashiko ry’uhoyane. Email y’ikigo y’umusanzwe izongerwa hano igihe yemejwe."
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "meta": {
+      "title": "Ipaji Ntabwo Ibonekani | King Business Studio",
+      "description": "Ipaji ushaka ntabwo yabonekana."
+    },
+    "title": "Ipaji ntabwo ibonekani",
+    "description": "Ipaji ushaka ntabwo ihari, cyangwa yashyikirizwe ahandi.",
+    "primaryCta": "Gera ku ipaji y’ahabanza",
+    "secondaryCta": "Reba serivisi zacu",
+    "helpTitle": "Ushobora gukura ibintu byihariye?",
+    "helpText": "Sura serivisi zacu, reba portfolio, cyangwa ibaza umufasha wa KBS."
+  },
+  "breadcrumb": {
+    "label": "Umurongo w’ipaji",
+    "home": "Ahabanza"
+  }
+}

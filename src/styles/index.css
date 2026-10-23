@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-kbs-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-bold text-kbs-ink;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-kbs-bright ring-offset-2 ring-offset-white;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    @apply bg-kbs-royal text-white;
+  }
+
+  /* Prevent horizontal overflow on small screens for wide children. */
+  img,
+  svg,
+  video,
+  canvas {
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  .kbs-container {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+
+  .kbs-skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-btn focus:bg-kbs-deep focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white;
+  }
+
+  .kbs-link {
+    @apply font-medium text-kbs-royal underline decoration-kbs-line decoration-1 underline-offset-4 transition-colors duration-200 ease-kbs hover:text-kbs-bright hover:decoration-kbs-bright;
+  }
+
+  .kbs-prose {
+    @apply max-w-prose text-[0.975rem] leading-7 text-kbs-slate;
+  }
+
+  .kbs-prose h2 {
+    @apply mb-3 mt-8 text-display-sm text-kbs-ink;
+  }
+
+  .kbs-prose h3 {
+    @apply mb-2 mt-6 text-base font-bold text-kbs-ink;
+  }
+
+  .kbs-prose p {
+    @apply mb-4;
+  }
+
+  .kbs-prose ul {
+    @apply mb-4 list-disc space-y-2 pl-5;
+  }
+
+  .kbs-prose ol {
+    @apply mb-4 list-decimal space-y-2 pl-5;
+  }
+
+  .kbs-prose li::marker {
+    @apply text-kbs-bright;
+  }
+
+  .kbs-prose a {
+    @apply kbs-link;
+  }
+}
+
+@layer utilities {
+  .kbs-hairline {
+    @apply border border-kbs-line;
+  }
+
+  .kbs-scroll-shadow {
+    scrollbar-width: thin;
+    scrollbar-color: #D9E2EF transparent;
+  }
+
+  .kbs-scroll-shadow::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .kbs-scroll-shadow::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-kbs-line;
+  }
+}
+
+/* Respect reduced-motion preferences across the whole product. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

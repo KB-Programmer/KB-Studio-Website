@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Replace the sitemap URL below with the real production domain
+# before the site is published.
+# Sitemap: https://example.com/sitemap.xml

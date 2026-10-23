@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="King Business Studio">
+  <rect width="48" height="48" rx="12" fill="#123B73" />
+  <path d="M16.5 11.5v25" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+  <path d="M32 11.5 16.5 24 32 36.5" stroke="#3478F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="32" cy="11.5" r="2.75" fill="#3478F6" />
+  <circle cx="32" cy="36.5" r="2.75" fill="#3478F6" />
+</svg>
