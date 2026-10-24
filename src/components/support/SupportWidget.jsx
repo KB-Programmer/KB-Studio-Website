@@ -590,7 +590,7 @@ export default function SupportWidget() {
                   {t('support.requestCta')}
                 </a>
                 <a
-                  href={path('/contact')}
+                  href={path('contact')}
                   onClick={() => setIsOpen(false)}
                   className="inline-flex items-center gap-1 rounded-btn bg-kbs-mist px-2.5 py-1 text-xs font-semibold text-kbs-ink"
                 >

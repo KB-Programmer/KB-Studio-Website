@@ -143,7 +143,7 @@ export default function ContactPage() {
               </div>
 
               <p className="mt-6 text-xs leading-5 text-kbs-slate">
-                <a href={path('/privacy-policy')} className="kbs-link">
+                <a href={path('privacy-policy')} className="kbs-link">
                   {t('footer.privacyPolicy')}
                 </a>
               </p>

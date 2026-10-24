@@ -11,7 +11,7 @@
  * contact information.
  */
 
-const envUrl = (import.meta.env?.VITE_SITE_URL ?? '').trim().replace(/\/$/, '')
+const envUrl = (import.meta.env.VITE_SITE_URL ?? '').trim().replace(/\/$/, '')
 
 export const site = {
   name: 'King Business Studio',
