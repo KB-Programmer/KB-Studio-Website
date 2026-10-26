@@ -23,7 +23,7 @@ export const site = {
   shortDescription:
     'From professional documents to memorable designs and modern websites, we help turn your ideas into practical business solutions.',
   country: 'Rwanda',
-  founded: null,
+  founded: "King Bonheur Nd.",
   languages: ['en', 'rw', 'fr'],
 
   /**
@@ -47,7 +47,7 @@ export const site = {
   contact: {
     email: 'kingbonheur02@gmail.com',
     phone: '+250794038238',
-    whatsapp: 'https://t.me/250794038238',
+    whatsapp: 'https://wa.me/250794038238',
     address: 'Remote, Kigali - Rwanda & Internation',
     hours: '24/7',
   },
@@ -71,7 +71,7 @@ export const site = {
     defaultDescription:
       'King Business Studio (KBS) delivers professional business documents, memorable graphic design, and modern, responsive websites for businesses and individuals in Rwanda and internationally.',
     twitterHandle: '',
-    ogImage: '/images/brand/og-image.svg',
+    ogImage: '/images/brand/og-image.png',
   },
 }
 

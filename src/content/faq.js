@@ -28,7 +28,7 @@ export const faqs = [
           'KBS provides three core services: Business Documents, Graphic Design and Web Development. You can read the full overview on the Services page or send your request through the Request a Service form.',
       },
       rw: {
-        question: 'Ni ubuhe serivisi KBS itanga?',
+        question: 'Ni zihe serivisi KBS itanga?',
         answer:
           "KBS itanga serivisi nke: Amanduku y'Ubucuruzi, Ugaragaza Ibinyabiziga, no Gushyira Website. Urashobora gusura ipaji ya Serivisi cyangwa ukohereza isunika ry'ubusabe serivisi.",
       },
@@ -50,9 +50,9 @@ export const faqs = [
           'Yes. Business Documents services may include CV and resume writing or improvement, cover letters, professional document formatting and proofreading. Share the role you are targeting so the document can be tailored.',
       },
       rw: {
-        question: 'KBS ishobora gufasha mu CV cyangwa imyaka?',
+        question: 'KBS ishobora kugufasha gukora CV ?',
         answer:
-          "Yego. Amanduku y'Ubucuruzi ashobora kubuga CV n'imyaka, ibutumwa ry'ibanira imirimo, gutondeka amanduku y'abahereza no kugenzura. Ubutumwa bw'umushinga bufatanye n'akazi ukeneye.",
+          "Yego. inyandiko y'Ubucuruzi ashobora kubuga CV n'imyaka, ibutumwa ry'ibanira imirimo, gutondeka amanduku y'abahereza no kugenzura. Ubutumwa bw'umushinga bufatanye n'akazi ukeneye.",
       },
       fr: {
         question: 'KBS peut-il aider avec un CV ?',

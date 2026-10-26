@@ -3,4 +3,4 @@ Allow: /
 
 # Replace the sitemap URL below with the real production domain
 # before the site is published.
-# Sitemap: https://example.com/sitemap.xml
+# Sitemap: https://kingbusiness.vercel.app/sitemap.xml

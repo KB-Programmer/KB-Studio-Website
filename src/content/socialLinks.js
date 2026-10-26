@@ -20,7 +20,7 @@ export const socialPlatforms = {
   },
   instagram: {
     label: 'Instagram',
-    baseUrl: 'https://www.instagram.com/',
+    baseUrl: 'https://www.instagram.com/kingbusiness_studio',
     brandClass: 'hover:bg-[#E1306C]',
   },
   tiktok: {
@@ -35,7 +35,7 @@ export const socialPlatforms = {
   },
   whatsapp: {
     label: 'WhatsApp Business',
-    baseUrl: 'https://wa.me/',
+    baseUrl: 'https://wa.me/250794038238',
     brandClass: 'hover:bg-[#25D366]',
   },
   telegram: {
@@ -45,7 +45,7 @@ export const socialPlatforms = {
   },
   github: {
     label: 'GitHub',
-    baseUrl: 'https://github.com/',
+    baseUrl: 'https://github.com/KB-Programmer',
     brandClass: 'hover:bg-[#171515]',
   },
 }
@@ -60,7 +60,7 @@ export const socialLinks = {
   instagram: { url: 'https://www.instagram.com/kingbusiness_studio', handle: 'kingbusiness_studio' },
   tiktok: { url: '', handle: '' },
   youtube: { url: '', handle: '' },
-  whatsapp: { url: 'https://t.me/250794038238', handle: 'King Business' },
+  whatsapp: { url: 'https://wa.me/250794038238', handle: 'King Business' },
   telegram: { url: '', handle: '' },
   github: { url: 'https://github.com/KB-Programmer', handle: 'King Business' },
   email: { url: 'mailto:kingbonheur02@gmail.com', handle: 'King Business' },

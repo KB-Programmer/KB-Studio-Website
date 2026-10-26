@@ -43,13 +43,13 @@ export default function Logo({
   variant = 'default',
   showText = true,
   className,
-  markClassName = 'h-10 w-10',
+  markClassName = 'h-12 w-15',
 }) {
   const light = variant === 'light'
 
   return (
     <span className={clsx('inline-flex items-center gap-2.5', className)}>
-      <LogoMark className={markClassName} />
+      <img src="/images/brand/logo.png" className={markClassName} alt="" />
       {showText ? (
         <span className="flex flex-col leading-none">
           <span
